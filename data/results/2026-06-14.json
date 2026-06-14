@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-14",
+  "last_updated": null,
+  "matches": [
+    {
+      "fd_id": 537351,
+      "match_id": 25,
+      "home_team": "GER",
+      "away_team": "CUW",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "outcome": null,
+      "date": "2026-06-14",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_E"
+    },
+    {
+      "fd_id": 537352,
+      "match_id": 26,
+      "home_team": "CIV",
+      "away_team": "ECU",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "outcome": null,
+      "date": "2026-06-14",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_E"
+    },
+    {
+      "fd_id": 537357,
+      "match_id": 31,
+      "home_team": "NED",
+      "away_team": "JPN",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "outcome": null,
+      "date": "2026-06-14",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_F"
+    },
+    {
+      "fd_id": 537358,
+      "match_id": 32,
+      "home_team": "SWE",
+      "away_team": "TUN",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "outcome": null,
+      "date": "2026-06-14",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_F"
+    }
+  ]
+}

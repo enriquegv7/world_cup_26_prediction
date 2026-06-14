@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WorldCupBench — AI vs FIFA World Cup 2026</title>
+  <meta name="description" content="10 frontier AI models predicted every match of the 2026 FIFA World Cup. Who got it right?">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            bg: { DEFAULT: '#0a0e1a', card: '#111827', hover: '#1a2235' },
+            gold: { DEFAULT: '#f59e0b', light: '#fbbf24', dark: '#d97706' },
+            accent: { blue: '#3b82f6', green: '#10b981', red: '#ef4444', purple: '#8b5cf6' },
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    .glass { background: rgba(17, 24, 39, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.08); }
+    .glow { box-shadow: 0 0 20px rgba(245, 158, 11, 0.15); }
+    .medal-1 { background: linear-gradient(135deg, #ffd700, #ffaa00); }
+    .medal-2 { background: linear-gradient(135deg, #c0c0c0, #a0a0a0); }
+    .medal-3 { background: linear-gradient(135deg, #cd7f32, #a0522d); }
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #0a0e1a; }
+    ::-webkit-scrollbar-thumb { background: #374151; border-radius: 3px; }
+    .tab-active { border-bottom: 2px solid #f59e0b; color: #f59e0b; }
+    .tab-inactive { border-bottom: 2px solid transparent; color: #9ca3af; }
+    .tab-inactive:hover { color: #d1d5db; }
+    .fade-in { animation: fadeIn 0.5s ease-out; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes pulse-gold { 0%, 100% { box-shadow: 0 0 5px rgba(245,158,11,0.3); } 50% { box-shadow: 0 0 20px rgba(245,158,11,0.5); } }
+    .pulse-gold { animation: pulse-gold 2s infinite; }
+  </style>
+</head>
+<body class="bg-bg text-gray-100 min-h-screen">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 glass border-b border-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <span class="text-3xl">⚽</span>
+        <div>
+          <h1 class="text-xl font-bold text-white">WorldCupBench</h1>
+          <p class="text-xs text-gray-400">AI Models vs FIFA World Cup 2026</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-4">
+        <span id="last-updated" class="text-xs text-gray-500"></span>
+        <a href="https://github.com/mverab/WorldCupBench" target="_blank" class="text-gray-400 hover:text-white transition">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation Tabs -->
+  <nav class="max-w-7xl mx-auto px-4 sm:px-6 pt-6">
+    <div class="flex gap-6 border-b border-gray-800 overflow-x-auto">
+      <button onclick="showTab('leaderboard')" id="tab-leaderboard" class="tab-active pb-3 text-sm font-medium whitespace-nowrap transition">🏆 Leaderboard</button>
+      <button onclick="showTab('consensus')" id="tab-consensus" class="tab-inactive pb-3 text-sm font-medium whitespace-nowrap transition">🔮 Consensus</button>
+      <button onclick="showTab('matches')" id="tab-matches" class="tab-inactive pb-3 text-sm font-medium whitespace-nowrap transition">⚽ Matches</button>
+      <button onclick="showTab('bracket')" id="tab-bracket" class="tab-inactive pb-3 text-sm font-medium whitespace-nowrap transition">🏅 Bracket</button>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 py-8">
+
+    <!-- Leaderboard Tab -->
+    <section id="section-leaderboard" class="fade-in">
+      <!-- Stats Row -->
+      <div id="stats-row" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8"></div>
+
+      <!-- Podium -->
+      <div id="podium" class="mb-8"></div>
+
+      <!-- Full Table -->
+      <div class="glass rounded-xl overflow-hidden">
+        <div class="p-4 border-b border-gray-800">
+          <h2 class="text-lg font-bold">Full Ranking</h2>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm">
+            <thead class="bg-bg">
+              <tr class="text-gray-400 text-left">
+                <th class="px-4 py-3 w-12">#</th>
+                <th class="px-4 py-3">Model</th>
+                <th class="px-4 py-3 text-center">Matches</th>
+                <th class="px-4 py-3 text-center">Brier Group</th>
+                <th class="px-4 py-3 text-center">Brier KO</th>
+                <th class="px-4 py-3 text-center">Brier Total</th>
+                <th class="px-4 py-3 text-center">Quiniela</th>
+              </tr>
+            </thead>
+            <tbody id="leaderboard-table"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Consensus Tab -->
+    <section id="section-consensus" class="fade-in hidden">
+      <div id="consensus-content"></div>
+    </section>
+
+    <!-- Matches Tab -->
+    <section id="section-matches" class="fade-in hidden">
+      <div class="flex flex-wrap gap-2 mb-6" id="group-filters"></div>
+      <div id="matches-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+    </section>
+
+    <!-- Bracket Tab -->
+    <section id="section-bracket" class="fade-in hidden">
+      <div id="bracket-content"></div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-800 mt-12 py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 text-center text-gray-500 text-sm">
+      <p>WorldCupBench © 2026 — <a href="https://github.com/mverab/WorldCupBench" class="text-gold hover:underline">GitHub</a></p>
+      <p class="mt-1">Predictions frozen before kickoff. No post-hoc editing.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

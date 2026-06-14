@@ -1,0 +1,2802 @@
+{
+  "generated_at": "2026-06-14T10:44:02.163466+00:00",
+  "bankroll": 20.0,
+  "model_weights": {
+    "MiniMax-M3": 0.1000056917267183,
+    "Kimi-K2.6": 0.09972764899635703,
+    "Grok-4.3": 0.09394358858694554,
+    "MiMo-V2.5-Pro": 0.0926636071924484,
+    "GPT-5.5": 0.09044028355505333,
+    "Gemini-3.5-Flash": 0.0894940270671534,
+    "Claude-Fable-5": 0.08926054877057041,
+    "Qwen-3.7-Max": 0.08772885888042453,
+    "Nex-N2-Pro": 0.08712056146898428,
+    "DeepSeek-V4-Pro": 0.086787378443659,
+    "GLM-5.1": 0.08282780531168572
+  },
+  "matches_analyzed": 72,
+  "bets_recommended": 20,
+  "total_exposure_eur": 18.89,
+  "matches": [
+    {
+      "match_id": "1",
+      "home_team": "MEX",
+      "away_team": "RSA",
+      "group": "A",
+      "date": "2026-06-11",
+      "recommended_outcome": "home",
+      "predicted_score": "2-0",
+      "confidence": 0.688,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.688,
+        "draw": 0.192,
+        "away": 0.12
+      },
+      "odds": null,
+      "edge": null,
+      "no_bet_reason": "sin_cuotas",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": true,
+      "actual_result": "home",
+      "actual_score": {
+        "home": 2,
+        "away": 0
+      },
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "2",
+      "home_team": "KOR",
+      "away_team": "CZE",
+      "group": "A",
+      "date": "2026-06-11",
+      "recommended_outcome": "home",
+      "predicted_score": "1-1",
+      "confidence": 0.424,
+      "agreement_rate": 0.636,
+      "council_probs": {
+        "home": 0.424,
+        "draw": 0.297,
+        "away": 0.279
+      },
+      "odds": null,
+      "edge": null,
+      "no_bet_reason": "sin_cuotas",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": true,
+      "actual_result": "home",
+      "actual_score": {
+        "home": 2,
+        "away": 1
+      },
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "3",
+      "home_team": "MEX",
+      "away_team": "KOR",
+      "group": "A",
+      "date": "2026-06-18",
+      "recommended_outcome": "home",
+      "predicted_score": "2-1",
+      "confidence": 0.495,
+      "agreement_rate": 0.727,
+      "council_probs": {
+        "home": 0.495,
+        "draw": 0.271,
+        "away": 0.234
+      },
+      "odds": {
+        "home": 2.02,
+        "draw": 3.51,
+        "away": 4.44
+      },
+      "edge": {
+        "home": -0.0001,
+        "draw": -0.0488,
+        "away": 0.039
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "4",
+      "home_team": "CZE",
+      "away_team": "RSA",
+      "group": "A",
+      "date": "2026-06-18",
+      "recommended_outcome": "away",
+      "predicted_score": "0-1",
+      "confidence": 0.456,
+      "agreement_rate": 0.727,
+      "council_probs": {
+        "home": 0.241,
+        "draw": 0.303,
+        "away": 0.456
+      },
+      "odds": {
+        "home": 1.83,
+        "draw": 4.08,
+        "away": 4.88
+      },
+      "edge": {
+        "home": -0.559,
+        "draw": 0.2362,
+        "away": 1.2253
+      },
+      "should_bet": true,
+      "no_bet_reason": null,
+      "bet_outcome": "away",
+      "bet_odds": 4.88,
+      "kelly_raw": 0.3158,
+      "kelly_fraction": 0.0789,
+      "bet_size_eur": 1.0,
+      "bet_size_pct": 5.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "5",
+      "home_team": "CZE",
+      "away_team": "MEX",
+      "group": "A",
+      "date": "2026-06-24",
+      "recommended_outcome": "home",
+      "predicted_score": "2-0",
+      "confidence": 0.586,
+      "agreement_rate": 0.909,
+      "council_probs": {
+        "home": 0.586,
+        "draw": 0.244,
+        "away": 0.17
+      },
+      "odds": {
+        "home": 5.13,
+        "draw": 3.77,
+        "away": 1.87
+      },
+      "edge": {
+        "home": 2.0062,
+        "draw": -0.0801,
+        "away": -0.6821
+      },
+      "should_bet": true,
+      "no_bet_reason": null,
+      "bet_outcome": "home",
+      "bet_odds": 5.13,
+      "kelly_raw": 0.4858,
+      "kelly_fraction": 0.1214,
+      "bet_size_eur": 1.0,
+      "bet_size_pct": 5.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "6",
+      "home_team": "RSA",
+      "away_team": "KOR",
+      "group": "A",
+      "date": "2026-06-24",
+      "recommended_outcome": "away",
+      "predicted_score": "0-2",
+      "confidence": 0.538,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.204,
+        "draw": 0.258,
+        "away": 0.538
+      },
+      "odds": {
+        "home": 6.45,
+        "draw": 4.44,
+        "away": 1.63
+      },
+      "edge": {
+        "home": 0.3158,
+        "draw": 0.1455,
+        "away": -0.1231
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "7",
+      "home_team": "CAN",
+      "away_team": "BIH",
+      "group": "B",
+      "date": "2026-06-12",
+      "recommended_outcome": "home",
+      "predicted_score": "2-1",
+      "confidence": 0.539,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.539,
+        "draw": 0.254,
+        "away": 0.208
+      },
+      "odds": null,
+      "edge": null,
+      "no_bet_reason": "sin_cuotas",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": true,
+      "actual_result": "draw",
+      "actual_score": {
+        "home": 1,
+        "away": 1
+      },
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "8",
+      "home_team": "QAT",
+      "away_team": "SUI",
+      "group": "B",
+      "date": "2026-06-13",
+      "recommended_outcome": "away",
+      "predicted_score": "0-2",
+      "confidence": 0.616,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.156,
+        "draw": 0.228,
+        "away": 0.616
+      },
+      "odds": null,
+      "edge": null,
+      "no_bet_reason": "sin_cuotas",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": true,
+      "actual_result": "draw",
+      "actual_score": {
+        "home": 1,
+        "away": 1
+      },
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "9",
+      "home_team": "CAN",
+      "away_team": "QAT",
+      "group": "B",
+      "date": "2026-06-18",
+      "recommended_outcome": "home",
+      "predicted_score": "2-0",
+      "confidence": 0.672,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.672,
+        "draw": 0.198,
+        "away": 0.13
+      },
+      "odds": {
+        "home": 1.31,
+        "draw": 6.06,
+        "away": 13.33
+      },
+      "edge": {
+        "home": -0.1197,
+        "draw": 0.1999,
+        "away": 0.7329
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "10",
+      "home_team": "SUI",
+      "away_team": "BIH",
+      "group": "B",
+      "date": "2026-06-18",
+      "recommended_outcome": "away",
+      "predicted_score": "0-2",
+      "confidence": 0.5,
+      "agreement_rate": 0.909,
+      "council_probs": {
+        "home": 0.23,
+        "draw": 0.269,
+        "away": 0.5
+      },
+      "odds": {
+        "home": 1.63,
+        "draw": 4.26,
+        "away": 6.45
+      },
+      "edge": {
+        "home": -0.6251,
+        "draw": 0.1459,
+        "away": 2.225
+      },
+      "should_bet": true,
+      "no_bet_reason": null,
+      "bet_outcome": "away",
+      "bet_odds": 6.45,
+      "kelly_raw": 0.4083,
+      "kelly_fraction": 0.1021,
+      "bet_size_eur": 1.0,
+      "bet_size_pct": 5.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "11",
+      "home_team": "SUI",
+      "away_team": "CAN",
+      "group": "B",
+      "date": "2026-06-24",
+      "recommended_outcome": "away",
+      "predicted_score": "1-1",
+      "confidence": 0.349,
+      "agreement_rate": 0.364,
+      "council_probs": {
+        "home": 0.344,
+        "draw": 0.307,
+        "away": 0.349
+      },
+      "odds": {
+        "home": 2.25,
+        "draw": 3.51,
+        "away": 3.64
+      },
+      "edge": {
+        "home": -0.226,
+        "draw": 0.0776,
+        "away": 0.2704
+      },
+      "no_bet_reason": "consenso_bajo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "12",
+      "home_team": "BIH",
+      "away_team": "QAT",
+      "group": "B",
+      "date": "2026-06-24",
+      "recommended_outcome": "home",
+      "predicted_score": "2-0",
+      "confidence": 0.505,
+      "agreement_rate": 0.909,
+      "council_probs": {
+        "home": 0.505,
+        "draw": 0.272,
+        "away": 0.223
+      },
+      "odds": {
+        "home": 1.57,
+        "draw": 4.44,
+        "away": 6.9
+      },
+      "edge": {
+        "home": -0.2071,
+        "draw": 0.2077,
+        "away": 0.5387
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "13",
+      "home_team": "BRA",
+      "away_team": "MAR",
+      "group": "C",
+      "date": "2026-06-13",
+      "recommended_outcome": "home",
+      "predicted_score": "2-1",
+      "confidence": 0.543,
+      "agreement_rate": 0.909,
+      "council_probs": {
+        "home": 0.543,
+        "draw": 0.255,
+        "away": 0.202
+      },
+      "odds": null,
+      "edge": null,
+      "no_bet_reason": "sin_cuotas",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": true,
+      "actual_result": "draw",
+      "actual_score": {
+        "home": 1,
+        "away": 1
+      },
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "14",
+      "home_team": "HAI",
+      "away_team": "SCO",
+      "group": "C",
+      "date": "2026-06-13",
+      "recommended_outcome": "away",
+      "predicted_score": "0-2",
+      "confidence": 0.55,
+      "agreement_rate": 0.909,
+      "council_probs": {
+        "home": 0.195,
+        "draw": 0.255,
+        "away": 0.55
+      },
+      "odds": null,
+      "edge": null,
+      "no_bet_reason": "sin_cuotas",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": true,
+      "actual_result": "away",
+      "actual_score": {
+        "home": 0,
+        "away": 1
+      },
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "15",
+      "home_team": "BRA",
+      "away_team": "HAI",
+      "group": "C",
+      "date": "2026-06-19",
+      "recommended_outcome": "home",
+      "predicted_score": "4-0",
+      "confidence": 0.848,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.848,
+        "draw": 0.106,
+        "away": 0.046
+      },
+      "odds": {
+        "home": 1.13,
+        "draw": 13.61,
+        "away": 25.32
+      },
+      "edge": {
+        "home": -0.0418,
+        "draw": 0.4427,
+        "away": 0.1647
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "16",
+      "home_team": "SCO",
+      "away_team": "MAR",
+      "group": "C",
+      "date": "2026-06-19",
+      "recommended_outcome": "home",
+      "predicted_score": "1-0",
+      "confidence": 0.519,
+      "agreement_rate": 0.909,
+      "council_probs": {
+        "home": 0.519,
+        "draw": 0.275,
+        "away": 0.206
+      },
+      "odds": {
+        "home": 5.41,
+        "draw": 3.92,
+        "away": 1.8
+      },
+      "edge": {
+        "home": 1.8078,
+        "draw": 0.078,
+        "away": -0.6292
+      },
+      "should_bet": true,
+      "no_bet_reason": null,
+      "bet_outcome": "home",
+      "bet_odds": 5.41,
+      "kelly_raw": 0.4099,
+      "kelly_fraction": 0.1025,
+      "bet_size_eur": 1.0,
+      "bet_size_pct": 5.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "17",
+      "home_team": "SCO",
+      "away_team": "BRA",
+      "group": "C",
+      "date": "2026-06-24",
+      "recommended_outcome": "home",
+      "predicted_score": "2-0",
+      "confidence": 0.703,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.703,
+        "draw": 0.19,
+        "away": 0.107
+      },
+      "odds": {
+        "home": 6.9,
+        "draw": 5.71,
+        "away": 1.44
+      },
+      "edge": {
+        "home": 3.8507,
+        "draw": 0.0849,
+        "away": -0.8459
+      },
+      "should_bet": true,
+      "no_bet_reason": null,
+      "bet_outcome": "home",
+      "bet_odds": 6.9,
+      "kelly_raw": 0.6527,
+      "kelly_fraction": 0.1632,
+      "bet_size_eur": 1.0,
+      "bet_size_pct": 5.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "18",
+      "home_team": "MAR",
+      "away_team": "HAI",
+      "group": "C",
+      "date": "2026-06-24",
+      "recommended_outcome": "home",
+      "predicted_score": "3-0",
+      "confidence": 0.735,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.735,
+        "draw": 0.17,
+        "away": 0.095
+      },
+      "odds": {
+        "home": 1.34,
+        "draw": 6.06,
+        "away": 10.53
+      },
+      "edge": {
+        "home": -0.0151,
+        "draw": 0.0302,
+        "away": 0.0003
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "19",
+      "home_team": "USA",
+      "away_team": "PAR",
+      "group": "D",
+      "date": "2026-06-12",
+      "recommended_outcome": "home",
+      "predicted_score": "2-0",
+      "confidence": 0.571,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.571,
+        "draw": 0.253,
+        "away": 0.176
+      },
+      "odds": null,
+      "edge": null,
+      "no_bet_reason": "sin_cuotas",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": true,
+      "actual_result": "home",
+      "actual_score": {
+        "home": 4,
+        "away": 1
+      },
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "20",
+      "home_team": "AUS",
+      "away_team": "TUR",
+      "group": "D",
+      "date": "2026-06-13",
+      "recommended_outcome": "away",
+      "predicted_score": "1-2",
+      "confidence": 0.446,
+      "agreement_rate": 0.818,
+      "council_probs": {
+        "home": 0.267,
+        "draw": 0.287,
+        "away": 0.446
+      },
+      "odds": null,
+      "edge": null,
+      "no_bet_reason": "sin_cuotas",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": true,
+      "actual_result": "home",
+      "actual_score": {
+        "home": 2,
+        "away": 0
+      },
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "21",
+      "home_team": "USA",
+      "away_team": "AUS",
+      "group": "D",
+      "date": "2026-06-19",
+      "recommended_outcome": "home",
+      "predicted_score": "2-0",
+      "confidence": 0.621,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.621,
+        "draw": 0.225,
+        "away": 0.154
+      },
+      "odds": {
+        "home": 1.63,
+        "draw": 4.65,
+        "away": 6.06
+      },
+      "edge": {
+        "home": 0.0122,
+        "draw": 0.0463,
+        "away": -0.0668
+      },
+      "no_bet_reason": "edge_insuficiente",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "22",
+      "home_team": "TUR",
+      "away_team": "PAR",
+      "group": "D",
+      "date": "2026-06-19",
+      "recommended_outcome": "away",
+      "predicted_score": "1-1",
+      "confidence": 0.348,
+      "agreement_rate": 0.182,
+      "council_probs": {
+        "home": 0.327,
+        "draw": 0.325,
+        "away": 0.348
+      },
+      "odds": {
+        "home": 2.11,
+        "draw": 3.51,
+        "away": 4.26
+      },
+      "edge": {
+        "home": -0.31,
+        "draw": 0.1407,
+        "away": 0.4825
+      },
+      "no_bet_reason": "consenso_bajo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "23",
+      "home_team": "TUR",
+      "away_team": "USA",
+      "group": "D",
+      "date": "2026-06-25",
+      "recommended_outcome": "home",
+      "predicted_score": "1-1",
+      "confidence": 0.465,
+      "agreement_rate": 0.455,
+      "council_probs": {
+        "home": 0.465,
+        "draw": 0.293,
+        "away": 0.242
+      },
+      "odds": {
+        "home": 2.9,
+        "draw": 3.92,
+        "away": 2.38
+      },
+      "edge": {
+        "home": 0.3485,
+        "draw": 0.1486,
+        "away": -0.424
+      },
+      "no_bet_reason": "consenso_bajo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "24",
+      "home_team": "PAR",
+      "away_team": "AUS",
+      "group": "D",
+      "date": "2026-06-25",
+      "recommended_outcome": "home",
+      "predicted_score": "1-0",
+      "confidence": 0.407,
+      "agreement_rate": 0.636,
+      "council_probs": {
+        "home": 0.407,
+        "draw": 0.325,
+        "away": 0.268
+      },
+      "odds": {
+        "home": 2.3,
+        "draw": 3.39,
+        "away": 3.64
+      },
+      "edge": {
+        "home": -0.0639,
+        "draw": 0.1018,
+        "away": -0.0245
+      },
+      "no_bet_reason": "consenso_bajo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "25",
+      "home_team": "GER",
+      "away_team": "CUW",
+      "group": "E",
+      "date": "2026-06-14",
+      "recommended_outcome": "home",
+      "predicted_score": "4-0",
+      "confidence": 0.869,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.869,
+        "draw": 0.091,
+        "away": 0.04
+      },
+      "odds": {
+        "home": 1.06,
+        "draw": 25.64,
+        "away": 48.78
+      },
+      "edge": {
+        "home": -0.0789,
+        "draw": 1.3332,
+        "away": 0.9512
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": true,
+      "actual_result": null,
+      "actual_score": {
+        "home": null,
+        "away": null
+      },
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "26",
+      "home_team": "CIV",
+      "away_team": "ECU",
+      "group": "E",
+      "date": "2026-06-14",
+      "recommended_outcome": "away",
+      "predicted_score": "1-1",
+      "confidence": 0.355,
+      "agreement_rate": 0.455,
+      "council_probs": {
+        "home": 0.351,
+        "draw": 0.294,
+        "away": 0.355
+      },
+      "odds": {
+        "home": 3.39,
+        "draw": 2.99,
+        "away": 2.67
+      },
+      "edge": {
+        "home": 0.1899,
+        "draw": -0.1209,
+        "away": -0.0522
+      },
+      "no_bet_reason": "consenso_bajo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": true,
+      "actual_result": null,
+      "actual_score": {
+        "home": null,
+        "away": null
+      },
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "27",
+      "home_team": "GER",
+      "away_team": "CIV",
+      "group": "E",
+      "date": "2026-06-20",
+      "recommended_outcome": "home",
+      "predicted_score": "2-1",
+      "confidence": 0.63,
+      "agreement_rate": 0.909,
+      "council_probs": {
+        "home": 0.63,
+        "draw": 0.228,
+        "away": 0.142
+      },
+      "odds": {
+        "home": 1.57,
+        "draw": 4.88,
+        "away": 5.71
+      },
+      "edge": {
+        "home": -0.0109,
+        "draw": 0.1126,
+        "away": -0.1892
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "28",
+      "home_team": "ECU",
+      "away_team": "CUW",
+      "group": "E",
+      "date": "2026-06-20",
+      "recommended_outcome": "away",
+      "predicted_score": "0-2",
+      "confidence": 0.681,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.124,
+        "draw": 0.195,
+        "away": 0.681
+      },
+      "odds": {
+        "home": 1.23,
+        "draw": 8.0,
+        "away": 15.75
+      },
+      "edge": {
+        "home": -0.8475,
+        "draw": 0.56,
+        "away": 9.7258
+      },
+      "should_bet": true,
+      "no_bet_reason": null,
+      "bet_outcome": "away",
+      "bet_odds": 15.75,
+      "kelly_raw": 0.6594,
+      "kelly_fraction": 0.1648,
+      "bet_size_eur": 1.0,
+      "bet_size_pct": 5.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "29",
+      "home_team": "ECU",
+      "away_team": "GER",
+      "group": "E",
+      "date": "2026-06-25",
+      "recommended_outcome": "home",
+      "predicted_score": "2-1",
+      "confidence": 0.56,
+      "agreement_rate": 0.818,
+      "council_probs": {
+        "home": 0.56,
+        "draw": 0.255,
+        "away": 0.185
+      },
+      "odds": {
+        "home": 4.88,
+        "draw": 4.08,
+        "away": 1.79
+      },
+      "edge": {
+        "home": 1.7328,
+        "draw": 0.0404,
+        "away": -0.6688
+      },
+      "should_bet": true,
+      "no_bet_reason": null,
+      "bet_outcome": "home",
+      "bet_odds": 4.88,
+      "kelly_raw": 0.4466,
+      "kelly_fraction": 0.1116,
+      "bet_size_eur": 1.0,
+      "bet_size_pct": 5.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "30",
+      "home_team": "CUW",
+      "away_team": "CIV",
+      "group": "E",
+      "date": "2026-06-25",
+      "recommended_outcome": "away",
+      "predicted_score": "0-2",
+      "confidence": 0.641,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.148,
+        "draw": 0.212,
+        "away": 0.641
+      },
+      "odds": {
+        "home": 13.33,
+        "draw": 6.9,
+        "away": 1.26
+      },
+      "edge": {
+        "home": 0.9728,
+        "draw": 0.4628,
+        "away": -0.1923
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "31",
+      "home_team": "NED",
+      "away_team": "JPN",
+      "group": "F",
+      "date": "2026-06-14",
+      "recommended_outcome": "home",
+      "predicted_score": "2-1",
+      "confidence": 0.475,
+      "agreement_rate": 0.818,
+      "council_probs": {
+        "home": 0.475,
+        "draw": 0.277,
+        "away": 0.248
+      },
+      "odds": {
+        "home": 2.11,
+        "draw": 3.64,
+        "away": 3.77
+      },
+      "edge": {
+        "home": 0.0022,
+        "draw": 0.0083,
+        "away": -0.065
+      },
+      "no_bet_reason": "edge_insuficiente",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": true,
+      "actual_result": null,
+      "actual_score": {
+        "home": null,
+        "away": null
+      },
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "32",
+      "home_team": "SWE",
+      "away_team": "TUN",
+      "group": "F",
+      "date": "2026-06-14",
+      "recommended_outcome": "home",
+      "predicted_score": "2-0",
+      "confidence": 0.529,
+      "agreement_rate": 0.909,
+      "council_probs": {
+        "home": 0.529,
+        "draw": 0.276,
+        "away": 0.194
+      },
+      "odds": {
+        "home": 2.02,
+        "draw": 3.64,
+        "away": 4.44
+      },
+      "edge": {
+        "home": 0.0686,
+        "draw": 0.0046,
+        "away": -0.1386
+      },
+      "should_bet": true,
+      "no_bet_reason": null,
+      "bet_outcome": "home",
+      "bet_odds": 2.02,
+      "kelly_raw": 0.0672,
+      "kelly_fraction": 0.0168,
+      "bet_size_eur": 0.34,
+      "bet_size_pct": 1.7,
+      "result_known": true,
+      "actual_result": null,
+      "actual_score": {
+        "home": null,
+        "away": null
+      },
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "33",
+      "home_team": "NED",
+      "away_team": "SWE",
+      "group": "F",
+      "date": "2026-06-20",
+      "recommended_outcome": "home",
+      "predicted_score": "2-1",
+      "confidence": 0.512,
+      "agreement_rate": 0.727,
+      "council_probs": {
+        "home": 0.512,
+        "draw": 0.277,
+        "away": 0.21
+      },
+      "odds": {
+        "home": 1.68,
+        "draw": 4.26,
+        "away": 5.71
+      },
+      "edge": {
+        "home": -0.1398,
+        "draw": 0.18,
+        "away": 0.1991
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "34",
+      "home_team": "TUN",
+      "away_team": "JPN",
+      "group": "F",
+      "date": "2026-06-20",
+      "recommended_outcome": "away",
+      "predicted_score": "0-2",
+      "confidence": 0.553,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.194,
+        "draw": 0.253,
+        "away": 0.553
+      },
+      "odds": {
+        "home": 6.45,
+        "draw": 3.77,
+        "away": 1.71
+      },
+      "edge": {
+        "home": 0.2513,
+        "draw": -0.0462,
+        "away": -0.0544
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "35",
+      "home_team": "TUN",
+      "away_team": "NED",
+      "group": "F",
+      "date": "2026-06-25",
+      "recommended_outcome": "home",
+      "predicted_score": "3-0",
+      "confidence": 0.712,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.712,
+        "draw": 0.182,
+        "away": 0.105
+      },
+      "odds": {
+        "home": 7.41,
+        "draw": 4.65,
+        "away": 1.5
+      },
+      "edge": {
+        "home": 4.2759,
+        "draw": -0.1537,
+        "away": -0.8425
+      },
+      "should_bet": true,
+      "no_bet_reason": null,
+      "bet_outcome": "home",
+      "bet_odds": 7.41,
+      "kelly_raw": 0.6671,
+      "kelly_fraction": 0.1668,
+      "bet_size_eur": 1.0,
+      "bet_size_pct": 5.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "36",
+      "home_team": "JPN",
+      "away_team": "SWE",
+      "group": "F",
+      "date": "2026-06-25",
+      "recommended_outcome": "home",
+      "predicted_score": "2-1",
+      "confidence": 0.44,
+      "agreement_rate": 0.818,
+      "council_probs": {
+        "home": 0.44,
+        "draw": 0.299,
+        "away": 0.261
+      },
+      "odds": {
+        "home": 2.15,
+        "draw": 3.51,
+        "away": 3.77
+      },
+      "edge": {
+        "home": -0.054,
+        "draw": 0.0495,
+        "away": -0.016
+      },
+      "no_bet_reason": "consenso_bajo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "37",
+      "home_team": "BEL",
+      "away_team": "EGY",
+      "group": "G",
+      "date": "2026-06-15",
+      "recommended_outcome": "home",
+      "predicted_score": "2-1",
+      "confidence": 0.542,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.542,
+        "draw": 0.256,
+        "away": 0.202
+      },
+      "odds": {
+        "home": 1.65,
+        "draw": 4.08,
+        "away": 6.06
+      },
+      "edge": {
+        "home": -0.1057,
+        "draw": 0.0445,
+        "away": 0.2241
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "38",
+      "home_team": "IRN",
+      "away_team": "NZL",
+      "group": "G",
+      "date": "2026-06-15",
+      "recommended_outcome": "home",
+      "predicted_score": "2-0",
+      "confidence": 0.578,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.578,
+        "draw": 0.264,
+        "away": 0.158
+      },
+      "odds": {
+        "home": 1.9,
+        "draw": 3.64,
+        "away": 5.13
+      },
+      "edge": {
+        "home": 0.0982,
+        "draw": -0.039,
+        "away": -0.1895
+      },
+      "should_bet": true,
+      "no_bet_reason": null,
+      "bet_outcome": "home",
+      "bet_odds": 1.9,
+      "kelly_raw": 0.1091,
+      "kelly_fraction": 0.0273,
+      "bet_size_eur": 0.55,
+      "bet_size_pct": 2.8,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "39",
+      "home_team": "BEL",
+      "away_team": "IRN",
+      "group": "G",
+      "date": "2026-06-21",
+      "recommended_outcome": "home",
+      "predicted_score": "2-0",
+      "confidence": 0.59,
+      "agreement_rate": 0.909,
+      "council_probs": {
+        "home": 0.59,
+        "draw": 0.247,
+        "away": 0.163
+      },
+      "odds": {
+        "home": 1.44,
+        "draw": 5.13,
+        "away": 8.7
+      },
+      "edge": {
+        "home": -0.1504,
+        "draw": 0.2671,
+        "away": 0.4181
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "40",
+      "home_team": "NZL",
+      "away_team": "EGY",
+      "group": "G",
+      "date": "2026-06-21",
+      "recommended_outcome": "home",
+      "predicted_score": "2-0",
+      "confidence": 0.648,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.648,
+        "draw": 0.217,
+        "away": 0.135
+      },
+      "odds": {
+        "home": 5.13,
+        "draw": 3.92,
+        "away": 1.8
+      },
+      "edge": {
+        "home": 2.3242,
+        "draw": -0.1494,
+        "away": -0.757
+      },
+      "should_bet": true,
+      "no_bet_reason": null,
+      "bet_outcome": "home",
+      "bet_odds": 5.13,
+      "kelly_raw": 0.5628,
+      "kelly_fraction": 0.1407,
+      "bet_size_eur": 1.0,
+      "bet_size_pct": 5.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "41",
+      "home_team": "NZL",
+      "away_team": "BEL",
+      "group": "G",
+      "date": "2026-06-26",
+      "recommended_outcome": "home",
+      "predicted_score": "3-0",
+      "confidence": 0.803,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.803,
+        "draw": 0.134,
+        "away": 0.063
+      },
+      "odds": {
+        "home": 10.53,
+        "draw": 6.45,
+        "away": 1.32
+      },
+      "edge": {
+        "home": 7.4556,
+        "draw": -0.1357,
+        "away": -0.9168
+      },
+      "should_bet": true,
+      "no_bet_reason": null,
+      "bet_outcome": "home",
+      "bet_odds": 10.53,
+      "kelly_raw": 0.7823,
+      "kelly_fraction": 0.1956,
+      "bet_size_eur": 1.0,
+      "bet_size_pct": 5.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "42",
+      "home_team": "EGY",
+      "away_team": "IRN",
+      "group": "G",
+      "date": "2026-06-26",
+      "recommended_outcome": "home",
+      "predicted_score": "1-1",
+      "confidence": 0.407,
+      "agreement_rate": 0.364,
+      "council_probs": {
+        "home": 0.407,
+        "draw": 0.326,
+        "away": 0.267
+      },
+      "odds": {
+        "home": 2.3,
+        "draw": 3.23,
+        "away": 3.7
+      },
+      "edge": {
+        "home": -0.0639,
+        "draw": 0.053,
+        "away": -0.0121
+      },
+      "no_bet_reason": "consenso_bajo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "43",
+      "home_team": "ESP",
+      "away_team": "CPV",
+      "group": "H",
+      "date": "2026-06-15",
+      "recommended_outcome": "home",
+      "predicted_score": "3-0",
+      "confidence": 0.831,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.831,
+        "draw": 0.119,
+        "away": 0.049
+      },
+      "odds": {
+        "home": 1.12,
+        "draw": 14.39,
+        "away": 30.77
+      },
+      "edge": {
+        "home": -0.0693,
+        "draw": 0.7124,
+        "away": 0.5077
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "44",
+      "home_team": "KSA",
+      "away_team": "URU",
+      "group": "H",
+      "date": "2026-06-15",
+      "recommended_outcome": "away",
+      "predicted_score": "0-2",
+      "confidence": 0.592,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.172,
+        "draw": 0.236,
+        "away": 0.592
+      },
+      "odds": {
+        "home": 8.7,
+        "draw": 4.65,
+        "away": 1.48
+      },
+      "edge": {
+        "home": 0.4964,
+        "draw": 0.0974,
+        "away": -0.1238
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "45",
+      "home_team": "ESP",
+      "away_team": "KSA",
+      "group": "H",
+      "date": "2026-06-21",
+      "recommended_outcome": "home",
+      "predicted_score": "3-0",
+      "confidence": 0.759,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.759,
+        "draw": 0.159,
+        "away": 0.082
+      },
+      "odds": {
+        "home": 1.12,
+        "draw": 13.33,
+        "away": 26.32
+      },
+      "edge": {
+        "home": -0.1499,
+        "draw": 1.1195,
+        "away": 1.1582
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "46",
+      "home_team": "URU",
+      "away_team": "CPV",
+      "group": "H",
+      "date": "2026-06-21",
+      "recommended_outcome": "away",
+      "predicted_score": "0-2",
+      "confidence": 0.677,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.129,
+        "draw": 0.194,
+        "away": 0.677
+      },
+      "odds": {
+        "home": 1.46,
+        "draw": 4.88,
+        "away": 8.7
+      },
+      "edge": {
+        "home": -0.8117,
+        "draw": -0.0533,
+        "away": 4.8899
+      },
+      "should_bet": true,
+      "no_bet_reason": null,
+      "bet_outcome": "away",
+      "bet_odds": 8.7,
+      "kelly_raw": 0.6351,
+      "kelly_fraction": 0.1588,
+      "bet_size_eur": 1.0,
+      "bet_size_pct": 5.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "47",
+      "home_team": "URU",
+      "away_team": "ESP",
+      "group": "H",
+      "date": "2026-06-26",
+      "recommended_outcome": "home",
+      "predicted_score": "2-1",
+      "confidence": 0.478,
+      "agreement_rate": 0.545,
+      "council_probs": {
+        "home": 0.478,
+        "draw": 0.284,
+        "away": 0.237
+      },
+      "odds": {
+        "home": 5.71,
+        "draw": 4.08,
+        "away": 1.68
+      },
+      "edge": {
+        "home": 1.7294,
+        "draw": 0.1587,
+        "away": -0.6018
+      },
+      "no_bet_reason": "consenso_bajo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "48",
+      "home_team": "CPV",
+      "away_team": "KSA",
+      "group": "H",
+      "date": "2026-06-26",
+      "recommended_outcome": "away",
+      "predicted_score": "1-1",
+      "confidence": 0.388,
+      "agreement_rate": 0.636,
+      "council_probs": {
+        "home": 0.314,
+        "draw": 0.297,
+        "away": 0.388
+      },
+      "odds": {
+        "home": 2.67,
+        "draw": 3.92,
+        "away": 2.74
+      },
+      "edge": {
+        "home": -0.1616,
+        "draw": 0.1642,
+        "away": 0.0631
+      },
+      "no_bet_reason": "consenso_bajo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "49",
+      "home_team": "FRA",
+      "away_team": "SEN",
+      "group": "I",
+      "date": "2026-06-16",
+      "recommended_outcome": "home",
+      "predicted_score": "2-1",
+      "confidence": 0.59,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.59,
+        "draw": 0.244,
+        "away": 0.165
+      },
+      "odds": {
+        "home": 1.5,
+        "draw": 4.65,
+        "away": 8.0
+      },
+      "edge": {
+        "home": -0.115,
+        "draw": 0.1346,
+        "away": 0.32
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "50",
+      "home_team": "IRQ",
+      "away_team": "NOR",
+      "group": "I",
+      "date": "2026-06-16",
+      "recommended_outcome": "away",
+      "predicted_score": "0-2",
+      "confidence": 0.595,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.171,
+        "draw": 0.234,
+        "away": 0.595
+      },
+      "odds": {
+        "home": 18.18,
+        "draw": 8.0,
+        "away": 1.21
+      },
+      "edge": {
+        "home": 2.1088,
+        "draw": 0.872,
+        "away": -0.2801
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "51",
+      "home_team": "FRA",
+      "away_team": "IRQ",
+      "group": "I",
+      "date": "2026-06-22",
+      "recommended_outcome": "home",
+      "predicted_score": "3-0",
+      "confidence": 0.831,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.831,
+        "draw": 0.117,
+        "away": 0.053
+      },
+      "odds": {
+        "home": 1.13,
+        "draw": 11.76,
+        "away": 26.67
+      },
+      "edge": {
+        "home": -0.061,
+        "draw": 0.3759,
+        "away": 0.4135
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "52",
+      "home_team": "NOR",
+      "away_team": "SEN",
+      "group": "I",
+      "date": "2026-06-22",
+      "recommended_outcome": "home",
+      "predicted_score": "1-1",
+      "confidence": 0.368,
+      "agreement_rate": 0.273,
+      "council_probs": {
+        "home": 0.368,
+        "draw": 0.314,
+        "away": 0.318
+      },
+      "odds": {
+        "home": 2.25,
+        "draw": 3.64,
+        "away": 3.51
+      },
+      "edge": {
+        "home": -0.172,
+        "draw": 0.143,
+        "away": 0.1162
+      },
+      "no_bet_reason": "consenso_bajo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "53",
+      "home_team": "NOR",
+      "away_team": "FRA",
+      "group": "I",
+      "date": "2026-06-26",
+      "recommended_outcome": "home",
+      "predicted_score": "2-1",
+      "confidence": 0.595,
+      "agreement_rate": 0.909,
+      "council_probs": {
+        "home": 0.595,
+        "draw": 0.234,
+        "away": 0.171
+      },
+      "odds": {
+        "home": 4.55,
+        "draw": 3.92,
+        "away": 1.87
+      },
+      "edge": {
+        "home": 1.7072,
+        "draw": -0.0827,
+        "away": -0.6802
+      },
+      "should_bet": true,
+      "no_bet_reason": null,
+      "bet_outcome": "home",
+      "bet_odds": 4.55,
+      "kelly_raw": 0.4809,
+      "kelly_fraction": 0.1202,
+      "bet_size_eur": 1.0,
+      "bet_size_pct": 5.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "54",
+      "home_team": "SEN",
+      "away_team": "IRQ",
+      "group": "I",
+      "date": "2026-06-26",
+      "recommended_outcome": "home",
+      "predicted_score": "2-0",
+      "confidence": 0.656,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.656,
+        "draw": 0.211,
+        "away": 0.133
+      },
+      "odds": {
+        "home": 1.46,
+        "draw": 4.88,
+        "away": 9.09
+      },
+      "edge": {
+        "home": -0.0422,
+        "draw": 0.0297,
+        "away": 0.209
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "55",
+      "home_team": "ARG",
+      "away_team": "ALG",
+      "group": "J",
+      "date": "2026-06-16",
+      "recommended_outcome": "home",
+      "predicted_score": "2-0",
+      "confidence": 0.693,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.693,
+        "draw": 0.196,
+        "away": 0.111
+      },
+      "odds": {
+        "home": 1.42,
+        "draw": 4.88,
+        "away": 10.53
+      },
+      "edge": {
+        "home": -0.0159,
+        "draw": -0.0435,
+        "away": 0.1688
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "56",
+      "home_team": "AUT",
+      "away_team": "JOR",
+      "group": "J",
+      "date": "2026-06-16",
+      "recommended_outcome": "home",
+      "predicted_score": "2-0",
+      "confidence": 0.653,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.653,
+        "draw": 0.217,
+        "away": 0.13
+      },
+      "odds": {
+        "home": 1.38,
+        "draw": 5.71,
+        "away": 9.52
+      },
+      "edge": {
+        "home": -0.0989,
+        "draw": 0.2391,
+        "away": 0.2376
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "57",
+      "home_team": "ARG",
+      "away_team": "AUT",
+      "group": "J",
+      "date": "2026-06-22",
+      "recommended_outcome": "home",
+      "predicted_score": "2-1",
+      "confidence": 0.56,
+      "agreement_rate": 0.727,
+      "council_probs": {
+        "home": 0.56,
+        "draw": 0.263,
+        "away": 0.177
+      },
+      "odds": {
+        "home": 1.6,
+        "draw": 4.44,
+        "away": 6.45
+      },
+      "edge": {
+        "home": -0.104,
+        "draw": 0.1677,
+        "away": 0.1417
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "58",
+      "home_team": "JOR",
+      "away_team": "ALG",
+      "group": "J",
+      "date": "2026-06-22",
+      "recommended_outcome": "home",
+      "predicted_score": "2-0",
+      "confidence": 0.594,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.594,
+        "draw": 0.241,
+        "away": 0.165
+      },
+      "odds": {
+        "home": 7.41,
+        "draw": 4.65,
+        "away": 1.53
+      },
+      "edge": {
+        "home": 3.4015,
+        "draw": 0.1207,
+        "away": -0.7475
+      },
+      "should_bet": true,
+      "no_bet_reason": null,
+      "bet_outcome": "home",
+      "bet_odds": 7.41,
+      "kelly_raw": 0.5307,
+      "kelly_fraction": 0.1327,
+      "bet_size_eur": 1.0,
+      "bet_size_pct": 5.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "59",
+      "home_team": "JOR",
+      "away_team": "ARG",
+      "group": "J",
+      "date": "2026-06-27",
+      "recommended_outcome": "home",
+      "predicted_score": "3-0",
+      "confidence": 0.838,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.838,
+        "draw": 0.112,
+        "away": 0.05
+      },
+      "odds": {
+        "home": 14.81,
+        "draw": 8.7,
+        "away": 1.21
+      },
+      "edge": {
+        "home": 11.4108,
+        "draw": -0.0256,
+        "away": -0.9395
+      },
+      "should_bet": true,
+      "no_bet_reason": null,
+      "bet_outcome": "home",
+      "bet_odds": 14.81,
+      "kelly_raw": 0.8263,
+      "kelly_fraction": 0.2066,
+      "bet_size_eur": 1.0,
+      "bet_size_pct": 5.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "60",
+      "home_team": "ALG",
+      "away_team": "AUT",
+      "group": "J",
+      "date": "2026-06-27",
+      "recommended_outcome": "away",
+      "predicted_score": "1-1",
+      "confidence": 0.378,
+      "agreement_rate": 0.364,
+      "council_probs": {
+        "home": 0.297,
+        "draw": 0.325,
+        "away": 0.378
+      },
+      "odds": {
+        "home": 3.92,
+        "draw": 3.28,
+        "away": 2.25
+      },
+      "edge": {
+        "home": 0.1642,
+        "draw": 0.066,
+        "away": -0.1495
+      },
+      "no_bet_reason": "consenso_bajo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "61",
+      "home_team": "POR",
+      "away_team": "COD",
+      "group": "K",
+      "date": "2026-06-17",
+      "recommended_outcome": "home",
+      "predicted_score": "3-0",
+      "confidence": 0.722,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.722,
+        "draw": 0.182,
+        "away": 0.096
+      },
+      "odds": {
+        "home": 1.32,
+        "draw": 6.06,
+        "away": 13.33
+      },
+      "edge": {
+        "home": -0.047,
+        "draw": 0.1029,
+        "away": 0.2797
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "62",
+      "home_team": "UZB",
+      "away_team": "COL",
+      "group": "K",
+      "date": "2026-06-17",
+      "recommended_outcome": "away",
+      "predicted_score": "0-2",
+      "confidence": 0.566,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.181,
+        "draw": 0.253,
+        "away": 0.566
+      },
+      "odds": {
+        "home": 10.53,
+        "draw": 4.88,
+        "away": 1.42
+      },
+      "edge": {
+        "home": 0.9059,
+        "draw": 0.2346,
+        "away": -0.1963
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "63",
+      "home_team": "POR",
+      "away_team": "UZB",
+      "group": "K",
+      "date": "2026-06-23",
+      "recommended_outcome": "home",
+      "predicted_score": "2-0",
+      "confidence": 0.721,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.721,
+        "draw": 0.182,
+        "away": 0.096
+      },
+      "odds": {
+        "home": 1.26,
+        "draw": 7.41,
+        "away": 13.33
+      },
+      "edge": {
+        "home": -0.0915,
+        "draw": 0.3486,
+        "away": 0.2797
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "64",
+      "home_team": "COL",
+      "away_team": "COD",
+      "group": "K",
+      "date": "2026-06-23",
+      "recommended_outcome": "away",
+      "predicted_score": "0-2",
+      "confidence": 0.536,
+      "agreement_rate": 0.909,
+      "council_probs": {
+        "home": 0.204,
+        "draw": 0.26,
+        "away": 0.536
+      },
+      "odds": {
+        "home": 1.5,
+        "draw": 4.65,
+        "away": 8.0
+      },
+      "edge": {
+        "home": -0.694,
+        "draw": 0.209,
+        "away": 3.288
+      },
+      "should_bet": true,
+      "no_bet_reason": null,
+      "bet_outcome": "away",
+      "bet_odds": 8.0,
+      "kelly_raw": 0.4697,
+      "kelly_fraction": 0.1174,
+      "bet_size_eur": 1.0,
+      "bet_size_pct": 5.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "65",
+      "home_team": "COL",
+      "away_team": "POR",
+      "group": "K",
+      "date": "2026-06-27",
+      "recommended_outcome": "home",
+      "predicted_score": "1-1",
+      "confidence": 0.427,
+      "agreement_rate": 0.273,
+      "council_probs": {
+        "home": 0.427,
+        "draw": 0.305,
+        "away": 0.268
+      },
+      "odds": {
+        "home": 3.85,
+        "draw": 3.64,
+        "away": 2.15
+      },
+      "edge": {
+        "home": 0.644,
+        "draw": 0.1102,
+        "away": -0.4238
+      },
+      "no_bet_reason": "consenso_bajo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "66",
+      "home_team": "COD",
+      "away_team": "UZB",
+      "group": "K",
+      "date": "2026-06-27",
+      "recommended_outcome": "home",
+      "predicted_score": "1-1",
+      "confidence": 0.379,
+      "agreement_rate": 0.364,
+      "council_probs": {
+        "home": 0.379,
+        "draw": 0.29,
+        "away": 0.331
+      },
+      "odds": {
+        "home": 2.47,
+        "draw": 3.51,
+        "away": 3.23
+      },
+      "edge": {
+        "home": -0.0639,
+        "draw": 0.0179,
+        "away": 0.0691
+      },
+      "no_bet_reason": "consenso_bajo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "67",
+      "home_team": "ENG",
+      "away_team": "CRO",
+      "group": "L",
+      "date": "2026-06-17",
+      "recommended_outcome": "home",
+      "predicted_score": "2-1",
+      "confidence": 0.526,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.526,
+        "draw": 0.263,
+        "away": 0.211
+      },
+      "odds": {
+        "home": 1.77,
+        "draw": 3.92,
+        "away": 5.41
+      },
+      "edge": {
+        "home": -0.069,
+        "draw": 0.031,
+        "away": 0.1415
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "68",
+      "home_team": "GHA",
+      "away_team": "PAN",
+      "group": "L",
+      "date": "2026-06-17",
+      "recommended_outcome": "home",
+      "predicted_score": "2-0",
+      "confidence": 0.562,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.562,
+        "draw": 0.251,
+        "away": 0.187
+      },
+      "odds": {
+        "home": 2.3,
+        "draw": 3.51,
+        "away": 3.64
+      },
+      "edge": {
+        "home": 0.2926,
+        "draw": -0.119,
+        "away": -0.3193
+      },
+      "should_bet": true,
+      "no_bet_reason": null,
+      "bet_outcome": "home",
+      "bet_odds": 2.3,
+      "kelly_raw": 0.2251,
+      "kelly_fraction": 0.0563,
+      "bet_size_eur": 1.0,
+      "bet_size_pct": 5.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "69",
+      "home_team": "ENG",
+      "away_team": "GHA",
+      "group": "L",
+      "date": "2026-06-23",
+      "recommended_outcome": "home",
+      "predicted_score": "2-0",
+      "confidence": 0.678,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.678,
+        "draw": 0.2,
+        "away": 0.122
+      },
+      "odds": {
+        "home": 1.32,
+        "draw": 6.06,
+        "away": 10.53
+      },
+      "edge": {
+        "home": -0.105,
+        "draw": 0.212,
+        "away": 0.2847
+      },
+      "no_bet_reason": "edge_negativo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "70",
+      "home_team": "PAN",
+      "away_team": "CRO",
+      "group": "L",
+      "date": "2026-06-23",
+      "recommended_outcome": "home",
+      "predicted_score": "2-0",
+      "confidence": 0.658,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.658,
+        "draw": 0.218,
+        "away": 0.123
+      },
+      "odds": {
+        "home": 7.14,
+        "draw": 4.26,
+        "away": 1.6
+      },
+      "edge": {
+        "home": 3.6981,
+        "draw": -0.0713,
+        "away": -0.8032
+      },
+      "should_bet": true,
+      "no_bet_reason": null,
+      "bet_outcome": "home",
+      "bet_odds": 7.14,
+      "kelly_raw": 0.6023,
+      "kelly_fraction": 0.1506,
+      "bet_size_eur": 1.0,
+      "bet_size_pct": 5.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "71",
+      "home_team": "PAN",
+      "away_team": "ENG",
+      "group": "L",
+      "date": "2026-06-27",
+      "recommended_outcome": "home",
+      "predicted_score": "3-0",
+      "confidence": 0.826,
+      "agreement_rate": 1.0,
+      "council_probs": {
+        "home": 0.826,
+        "draw": 0.12,
+        "away": 0.054
+      },
+      "odds": {
+        "home": 10.0,
+        "draw": 6.9,
+        "away": 1.32
+      },
+      "edge": {
+        "home": 7.26,
+        "draw": -0.172,
+        "away": -0.9287
+      },
+      "should_bet": true,
+      "no_bet_reason": null,
+      "bet_outcome": "home",
+      "bet_odds": 10.0,
+      "kelly_raw": 0.8067,
+      "kelly_fraction": 0.2017,
+      "bet_size_eur": 1.0,
+      "bet_size_pct": 5.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    },
+    {
+      "match_id": "72",
+      "home_team": "CRO",
+      "away_team": "GHA",
+      "group": "L",
+      "date": "2026-06-27",
+      "recommended_outcome": "home",
+      "predicted_score": "1-1",
+      "confidence": 0.455,
+      "agreement_rate": 0.545,
+      "council_probs": {
+        "home": 0.455,
+        "draw": 0.284,
+        "away": 0.261
+      },
+      "odds": {
+        "home": 1.71,
+        "draw": 4.08,
+        "away": 6.06
+      },
+      "edge": {
+        "home": -0.2219,
+        "draw": 0.1587,
+        "away": 0.5817
+      },
+      "no_bet_reason": "consenso_bajo",
+      "should_bet": false,
+      "bet_outcome": null,
+      "bet_odds": null,
+      "kelly_raw": null,
+      "kelly_fraction": 0.0,
+      "bet_size_eur": 0.0,
+      "bet_size_pct": 0.0,
+      "result_known": false,
+      "actual_result": null,
+      "actual_score": null,
+      "bet_won": null,
+      "profit_eur": null
+    }
+  ]
+}

@@ -1,0 +1,1714 @@
+{
+  "model": "MiniMax-M3",
+  "model_id": "minimax/minimax-m3-20260531",
+  "modality": "pre_tournament",
+  "generated_at": "2026-06-10T22:24:49.115623+00:00",
+  "seed_or_temp": {
+    "temperature": 0.3
+  },
+  "source_schema": "freeze-v3",
+  "group_matches": [
+    {
+      "match_id": "1",
+      "probs": {
+        "home": 0.72,
+        "draw": 0.17,
+        "away": 0.11
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "2",
+      "probs": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "3",
+      "probs": {
+        "home": 0.42,
+        "draw": 0.3,
+        "away": 0.28
+      },
+      "orientation_flipped": false,
+      "predicted_result": "draw",
+      "predicted_score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "4",
+      "probs": {
+        "home": 0.35,
+        "draw": 0.35,
+        "away": 0.3
+      },
+      "orientation_flipped": true,
+      "predicted_result": "draw",
+      "predicted_score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "5",
+      "probs": {
+        "home": 0.15,
+        "draw": 0.2,
+        "away": 0.65
+      },
+      "orientation_flipped": true,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "match_id": "6",
+      "probs": {
+        "home": 0.18,
+        "draw": 0.25,
+        "away": 0.57
+      },
+      "orientation_flipped": false,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "match_id": "7",
+      "probs": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "8",
+      "probs": {
+        "home": 0.22,
+        "draw": 0.25,
+        "away": 0.53
+      },
+      "orientation_flipped": false,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "match_id": "9",
+      "probs": {
+        "home": 0.5,
+        "draw": 0.3,
+        "away": 0.2
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "10",
+      "probs": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "orientation_flipped": true,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "11",
+      "probs": {
+        "home": 0.35,
+        "draw": 0.3,
+        "away": 0.35
+      },
+      "orientation_flipped": true,
+      "predicted_result": "draw",
+      "predicted_score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "12",
+      "probs": {
+        "home": 0.35,
+        "draw": 0.35,
+        "away": 0.3
+      },
+      "orientation_flipped": false,
+      "predicted_result": "draw",
+      "predicted_score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "13",
+      "probs": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "14",
+      "probs": {
+        "home": 0.18,
+        "draw": 0.25,
+        "away": 0.57
+      },
+      "orientation_flipped": false,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "match_id": "15",
+      "probs": {
+        "home": 0.85,
+        "draw": 0.1,
+        "away": 0.05
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "16",
+      "probs": {
+        "home": 0.22,
+        "draw": 0.28,
+        "away": 0.5
+      },
+      "orientation_flipped": true,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "match_id": "17",
+      "probs": {
+        "home": 0.15,
+        "draw": 0.2,
+        "away": 0.65
+      },
+      "orientation_flipped": true,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "match_id": "18",
+      "probs": {
+        "home": 0.72,
+        "draw": 0.18,
+        "away": 0.1
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "19",
+      "probs": {
+        "home": 0.65,
+        "draw": 0.22,
+        "away": 0.13
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "20",
+      "probs": {
+        "home": 0.32,
+        "draw": 0.35,
+        "away": 0.33
+      },
+      "orientation_flipped": false,
+      "predicted_result": "draw",
+      "predicted_score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "21",
+      "probs": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "22",
+      "probs": {
+        "home": 0.35,
+        "draw": 0.35,
+        "away": 0.3
+      },
+      "orientation_flipped": true,
+      "predicted_result": "draw",
+      "predicted_score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "23",
+      "probs": {
+        "home": 0.22,
+        "draw": 0.28,
+        "away": 0.5
+      },
+      "orientation_flipped": true,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "24",
+      "probs": {
+        "home": 0.35,
+        "draw": 0.4,
+        "away": 0.25
+      },
+      "orientation_flipped": false,
+      "predicted_result": "draw",
+      "predicted_score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "25",
+      "probs": {
+        "home": 0.9,
+        "draw": 0.07,
+        "away": 0.03
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "26",
+      "probs": {
+        "home": 0.4,
+        "draw": 0.3,
+        "away": 0.3
+      },
+      "orientation_flipped": false,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "27",
+      "probs": {
+        "home": 0.68,
+        "draw": 0.2,
+        "away": 0.12
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "28",
+      "probs": {
+        "home": 0.63,
+        "draw": 0.22,
+        "away": 0.15
+      },
+      "orientation_flipped": true,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "29",
+      "probs": {
+        "home": 0.2,
+        "draw": 0.25,
+        "away": 0.55
+      },
+      "orientation_flipped": true,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "match_id": "30",
+      "probs": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "orientation_flipped": false,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "match_id": "31",
+      "probs": {
+        "home": 0.42,
+        "draw": 0.3,
+        "away": 0.28
+      },
+      "orientation_flipped": false,
+      "predicted_result": "draw",
+      "predicted_score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "32",
+      "probs": {
+        "home": 0.42,
+        "draw": 0.3,
+        "away": 0.28
+      },
+      "orientation_flipped": false,
+      "predicted_result": "draw",
+      "predicted_score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "33",
+      "probs": {
+        "home": 0.52,
+        "draw": 0.27,
+        "away": 0.21
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "34",
+      "probs": {
+        "home": 0.3,
+        "draw": 0.3,
+        "away": 0.4
+      },
+      "orientation_flipped": false,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "35",
+      "probs": {
+        "home": 0.12,
+        "draw": 0.18,
+        "away": 0.7
+      },
+      "orientation_flipped": true,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "match_id": "36",
+      "probs": {
+        "home": 0.48,
+        "draw": 0.27,
+        "away": 0.25
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "37",
+      "probs": {
+        "home": 0.5,
+        "draw": 0.27,
+        "away": 0.23
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "38",
+      "probs": {
+        "home": 0.65,
+        "draw": 0.22,
+        "away": 0.13
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "39",
+      "probs": {
+        "home": 0.42,
+        "draw": 0.3,
+        "away": 0.28
+      },
+      "orientation_flipped": false,
+      "predicted_result": "draw",
+      "predicted_score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "40",
+      "probs": {
+        "home": 0.08,
+        "draw": 0.17,
+        "away": 0.75
+      },
+      "orientation_flipped": true,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "match_id": "41",
+      "probs": {
+        "home": 0.05,
+        "draw": 0.1,
+        "away": 0.85
+      },
+      "orientation_flipped": true,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "match_id": "42",
+      "probs": {
+        "home": 0.42,
+        "draw": 0.3,
+        "away": 0.28
+      },
+      "orientation_flipped": false,
+      "predicted_result": "draw",
+      "predicted_score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "43",
+      "probs": {
+        "home": 0.85,
+        "draw": 0.1,
+        "away": 0.05
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "44",
+      "probs": {
+        "home": 0.15,
+        "draw": 0.22,
+        "away": 0.63
+      },
+      "orientation_flipped": false,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "match_id": "45",
+      "probs": {
+        "home": 0.88,
+        "draw": 0.08,
+        "away": 0.04
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "46",
+      "probs": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "orientation_flipped": true,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "47",
+      "probs": {
+        "home": 0.2,
+        "draw": 0.25,
+        "away": 0.55
+      },
+      "orientation_flipped": true,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "match_id": "48",
+      "probs": {
+        "home": 0.4,
+        "draw": 0.32,
+        "away": 0.28
+      },
+      "orientation_flipped": false,
+      "predicted_result": "draw",
+      "predicted_score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "49",
+      "probs": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "50",
+      "probs": {
+        "home": 0.18,
+        "draw": 0.25,
+        "away": 0.57
+      },
+      "orientation_flipped": false,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "match_id": "51",
+      "probs": {
+        "home": 0.85,
+        "draw": 0.1,
+        "away": 0.05
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "52",
+      "probs": {
+        "home": 0.38,
+        "draw": 0.3,
+        "away": 0.32
+      },
+      "orientation_flipped": true,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "53",
+      "probs": {
+        "home": 0.21,
+        "draw": 0.27,
+        "away": 0.52
+      },
+      "orientation_flipped": true,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "match_id": "54",
+      "probs": {
+        "home": 0.65,
+        "draw": 0.22,
+        "away": 0.13
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "55",
+      "probs": {
+        "home": 0.65,
+        "draw": 0.22,
+        "away": 0.13
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "56",
+      "probs": {
+        "home": 0.65,
+        "draw": 0.22,
+        "away": 0.13
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "57",
+      "probs": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "orientation_flipped": false,
+      "predicted_result": "draw",
+      "predicted_score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "58",
+      "probs": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "orientation_flipped": true,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "match_id": "59",
+      "probs": {
+        "home": 0.04,
+        "draw": 0.08,
+        "away": 0.88
+      },
+      "orientation_flipped": true,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "match_id": "60",
+      "probs": {
+        "home": 0.35,
+        "draw": 0.3,
+        "away": 0.35
+      },
+      "orientation_flipped": false,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "match_id": "61",
+      "probs": {
+        "home": 0.65,
+        "draw": 0.22,
+        "away": 0.13
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "62",
+      "probs": {
+        "home": 0.18,
+        "draw": 0.25,
+        "away": 0.57
+      },
+      "orientation_flipped": false,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "match_id": "63",
+      "probs": {
+        "home": 0.7,
+        "draw": 0.2,
+        "away": 0.1
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "64",
+      "probs": {
+        "home": 0.42,
+        "draw": 0.28,
+        "away": 0.3
+      },
+      "orientation_flipped": true,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "65",
+      "probs": {
+        "home": 0.32,
+        "draw": 0.3,
+        "away": 0.38
+      },
+      "orientation_flipped": true,
+      "predicted_result": "draw",
+      "predicted_score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "66",
+      "probs": {
+        "home": 0.55,
+        "draw": 0.27,
+        "away": 0.18
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "67",
+      "probs": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "match_id": "68",
+      "probs": {
+        "home": 0.6,
+        "draw": 0.25,
+        "away": 0.15
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "69",
+      "probs": {
+        "home": 0.65,
+        "draw": 0.22,
+        "away": 0.13
+      },
+      "orientation_flipped": false,
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "match_id": "70",
+      "probs": {
+        "home": 0.1,
+        "draw": 0.18,
+        "away": 0.72
+      },
+      "orientation_flipped": true,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "match_id": "71",
+      "probs": {
+        "home": 0.04,
+        "draw": 0.08,
+        "away": 0.88
+      },
+      "orientation_flipped": true,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "match_id": "72",
+      "probs": {
+        "home": 0.32,
+        "draw": 0.28,
+        "away": 0.4
+      },
+      "orientation_flipped": false,
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 1,
+        "away": 2
+      }
+    }
+  ],
+  "group_qualifiers": {
+    "first_place": [
+      {
+        "team_code": "MEX",
+        "group": "A"
+      },
+      {
+        "team_code": "SUI",
+        "group": "B"
+      },
+      {
+        "team_code": "BRA",
+        "group": "C"
+      },
+      {
+        "team_code": "USA",
+        "group": "D"
+      },
+      {
+        "team_code": "GER",
+        "group": "E"
+      },
+      {
+        "team_code": "NED",
+        "group": "F"
+      },
+      {
+        "team_code": "BEL",
+        "group": "G"
+      },
+      {
+        "team_code": "ESP",
+        "group": "H"
+      },
+      {
+        "team_code": "FRA",
+        "group": "I"
+      },
+      {
+        "team_code": "ARG",
+        "group": "J"
+      },
+      {
+        "team_code": "POR",
+        "group": "K"
+      },
+      {
+        "team_code": "ENG",
+        "group": "L"
+      }
+    ],
+    "second_place": [
+      {
+        "team_code": "KOR",
+        "group": "A"
+      },
+      {
+        "team_code": "CAN",
+        "group": "B"
+      },
+      {
+        "team_code": "MAR",
+        "group": "C"
+      },
+      {
+        "team_code": "TUR",
+        "group": "D"
+      },
+      {
+        "team_code": "ECU",
+        "group": "E"
+      },
+      {
+        "team_code": "JPN",
+        "group": "F"
+      },
+      {
+        "team_code": "EGY",
+        "group": "G"
+      },
+      {
+        "team_code": "URU",
+        "group": "H"
+      },
+      {
+        "team_code": "NOR",
+        "group": "I"
+      },
+      {
+        "team_code": "AUT",
+        "group": "J"
+      },
+      {
+        "team_code": "COL",
+        "group": "K"
+      },
+      {
+        "team_code": "GHA",
+        "group": "L"
+      }
+    ],
+    "best_third_place": [
+      {
+        "team_code": "IRN",
+        "group": "G"
+      },
+      {
+        "team_code": "CRO",
+        "group": "L"
+      },
+      {
+        "team_code": "SCO",
+        "group": "C"
+      },
+      {
+        "team_code": "SEN",
+        "group": "I"
+      },
+      {
+        "team_code": "ALG",
+        "group": "J"
+      },
+      {
+        "team_code": "COD",
+        "group": "K"
+      },
+      {
+        "team_code": "CIV",
+        "group": "E"
+      },
+      {
+        "team_code": "AUS",
+        "group": "D"
+      }
+    ]
+  },
+  "bracket": {
+    "R32": [
+      {
+        "match_id": "73",
+        "match": "73",
+        "home_team": "KOR",
+        "away_team": "CAN",
+        "predicted_result": "away",
+        "predicted_score": {
+          "home": 1,
+          "away": 2
+        },
+        "probs": {
+          "home": 0.4,
+          "draw": 0.0,
+          "away": 0.6
+        },
+        "winner": "CAN"
+      },
+      {
+        "match_id": "74",
+        "match": "74",
+        "home_team": "GER",
+        "away_team": "SCO",
+        "predicted_result": "home",
+        "predicted_score": {
+          "home": 3,
+          "away": 0
+        },
+        "probs": {
+          "home": 0.82,
+          "draw": 0.0,
+          "away": 0.18
+        },
+        "winner": "GER"
+      },
+      {
+        "match_id": "75",
+        "match": "75",
+        "home_team": "NED",
+        "away_team": "MAR",
+        "predicted_result": "home",
+        "predicted_score": {
+          "home": 2,
+          "away": 0
+        },
+        "probs": {
+          "home": 0.62,
+          "draw": 0.0,
+          "away": 0.38
+        },
+        "winner": "NED"
+      },
+      {
+        "match_id": "76",
+        "match": "76",
+        "home_team": "BRA",
+        "away_team": "JPN",
+        "predicted_result": "home",
+        "predicted_score": {
+          "home": 2,
+          "away": 1
+        },
+        "probs": {
+          "home": 0.65,
+          "draw": 0.0,
+          "away": 0.35
+        },
+        "winner": "BRA"
+      },
+      {
+        "match_id": "77",
+        "match": "77",
+        "home_team": "FRA",
+        "away_team": "AUS",
+        "predicted_result": "home",
+        "predicted_score": {
+          "home": 3,
+          "away": 0
+        },
+        "probs": {
+          "home": 0.85,
+          "draw": 0.0,
+          "away": 0.15
+        },
+        "winner": "FRA"
+      },
+      {
+        "match_id": "78",
+        "match": "78",
+        "home_team": "ECU",
+        "away_team": "NOR",
+        "predicted_result": "away",
+        "predicted_score": {
+          "home": 1,
+          "away": 2
+        },
+        "probs": {
+          "home": 0.38,
+          "draw": 0.0,
+          "away": 0.62
+        },
+        "winner": "NOR"
+      },
+      {
+        "match_id": "79",
+        "match": "79",
+        "home_team": "MEX",
+        "away_team": "SEN",
+        "predicted_result": "home",
+        "predicted_score": {
+          "home": 2,
+          "away": 1
+        },
+        "probs": {
+          "home": 0.55,
+          "draw": 0.0,
+          "away": 0.45
+        },
+        "winner": "MEX"
+      },
+      {
+        "match_id": "80",
+        "match": "80",
+        "home_team": "ENG",
+        "away_team": "COD",
+        "predicted_result": "home",
+        "predicted_score": {
+          "home": 3,
+          "away": 0
+        },
+        "probs": {
+          "home": 0.85,
+          "draw": 0.0,
+          "away": 0.15
+        },
+        "winner": "ENG"
+      },
+      {
+        "match_id": "81",
+        "match": "81",
+        "home_team": "USA",
+        "away_team": "CIV",
+        "predicted_result": "home",
+        "predicted_score": {
+          "home": 2,
+          "away": 0
+        },
+        "probs": {
+          "home": 0.65,
+          "draw": 0.0,
+          "away": 0.35
+        },
+        "winner": "USA"
+      },
+      {
+        "match_id": "82",
+        "match": "82",
+        "home_team": "BEL",
+        "away_team": "ALG",
+        "predicted_result": "home",
+        "predicted_score": {
+          "home": 2,
+          "away": 0
+        },
+        "probs": {
+          "home": 0.7,
+          "draw": 0.0,
+          "away": 0.3
+        },
+        "winner": "BEL"
+      },
+      {
+        "match_id": "83",
+        "match": "83",
+        "home_team": "COL",
+        "away_team": "GHA",
+        "predicted_result": "home",
+        "predicted_score": {
+          "home": 2,
+          "away": 1
+        },
+        "probs": {
+          "home": 0.6,
+          "draw": 0.0,
+          "away": 0.4
+        },
+        "winner": "COL"
+      },
+      {
+        "match_id": "84",
+        "match": "84",
+        "home_team": "ESP",
+        "away_team": "AUT",
+        "predicted_result": "home",
+        "predicted_score": {
+          "home": 2,
+          "away": 0
+        },
+        "probs": {
+          "home": 0.72,
+          "draw": 0.0,
+          "away": 0.28
+        },
+        "winner": "ESP"
+      },
+      {
+        "match_id": "85",
+        "match": "85",
+        "home_team": "SUI",
+        "away_team": "IRN",
+        "predicted_result": "home",
+        "predicted_score": {
+          "home": 2,
+          "away": 1
+        },
+        "probs": {
+          "home": 0.55,
+          "draw": 0.0,
+          "away": 0.45
+        },
+        "winner": "SUI"
+      },
+      {
+        "match_id": "86",
+        "match": "86",
+        "home_team": "ARG",
+        "away_team": "URU",
+        "predicted_result": "home",
+        "predicted_score": {
+          "home": 2,
+          "away": 1
+        },
+        "probs": {
+          "home": 0.55,
+          "draw": 0.0,
+          "away": 0.45
+        },
+        "winner": "ARG"
+      },
+      {
+        "match_id": "87",
+        "match": "87",
+        "home_team": "POR",
+        "away_team": "CRO",
+        "predicted_result": "home",
+        "predicted_score": {
+          "home": 2,
+          "away": 0
+        },
+        "probs": {
+          "home": 0.65,
+          "draw": 0.0,
+          "away": 0.35
+        },
+        "winner": "POR"
+      },
+      {
+        "match_id": "88",
+        "match": "88",
+        "home_team": "TUR",
+        "away_team": "EGY",
+        "predicted_result": "away",
+        "predicted_score": {
+          "home": 1,
+          "away": 2
+        },
+        "probs": {
+          "home": 0.35,
+          "draw": 0.0,
+          "away": 0.65
+        },
+        "winner": "EGY"
+      }
+    ],
+    "R16": [
+      {
+        "match_id": "89",
+        "match": "89",
+        "home_team": "GER",
+        "away_team": "FRA",
+        "predicted_result": "away",
+        "predicted_score": {
+          "home": 1,
+          "away": 2
+        },
+        "probs": {
+          "home": 0.35,
+          "draw": 0.0,
+          "away": 0.65
+        },
+        "winner": "FRA"
+      },
+      {
+        "match_id": "90",
+        "match": "90",
+        "home_team": "CAN",
+        "away_team": "NED",
+        "predicted_result": "away",
+        "predicted_score": {
+          "home": 0,
+          "away": 2
+        },
+        "probs": {
+          "home": 0.25,
+          "draw": 0.0,
+          "away": 0.75
+        },
+        "winner": "NED"
+      },
+      {
+        "match_id": "91",
+        "match": "91",
+        "home_team": "BRA",
+        "away_team": "NOR",
+        "predicted_result": "home",
+        "predicted_score": {
+          "home": 3,
+          "away": 1
+        },
+        "probs": {
+          "home": 0.7,
+          "draw": 0.0,
+          "away": 0.3
+        },
+        "winner": "BRA"
+      },
+      {
+        "match_id": "92",
+        "match": "92",
+        "home_team": "MEX",
+        "away_team": "ENG",
+        "predicted_result": "away",
+        "predicted_score": {
+          "home": 0,
+          "away": 2
+        },
+        "probs": {
+          "home": 0.25,
+          "draw": 0.0,
+          "away": 0.75
+        },
+        "winner": "ENG"
+      },
+      {
+        "match_id": "93",
+        "match": "93",
+        "home_team": "COL",
+        "away_team": "ESP",
+        "predicted_result": "away",
+        "predicted_score": {
+          "home": 1,
+          "away": 2
+        },
+        "probs": {
+          "home": 0.32,
+          "draw": 0.0,
+          "away": 0.68
+        },
+        "winner": "ESP"
+      },
+      {
+        "match_id": "94",
+        "match": "94",
+        "home_team": "USA",
+        "away_team": "BEL",
+        "predicted_result": "away",
+        "predicted_score": {
+          "home": 1,
+          "away": 2
+        },
+        "probs": {
+          "home": 0.38,
+          "draw": 0.0,
+          "away": 0.62
+        },
+        "winner": "BEL"
+      },
+      {
+        "match_id": "95",
+        "match": "95",
+        "home_team": "ARG",
+        "away_team": "EGY",
+        "predicted_result": "home",
+        "predicted_score": {
+          "home": 2,
+          "away": 0
+        },
+        "probs": {
+          "home": 0.7,
+          "draw": 0.0,
+          "away": 0.3
+        },
+        "winner": "ARG"
+      },
+      {
+        "match_id": "96",
+        "match": "96",
+        "home_team": "SUI",
+        "away_team": "POR",
+        "predicted_result": "away",
+        "predicted_score": {
+          "home": 1,
+          "away": 2
+        },
+        "probs": {
+          "home": 0.38,
+          "draw": 0.0,
+          "away": 0.62
+        },
+        "winner": "POR"
+      }
+    ],
+    "QF": [
+      {
+        "match_id": "97",
+        "match": "97",
+        "home_team": "FRA",
+        "away_team": "NED",
+        "predicted_result": "home",
+        "predicted_score": {
+          "home": 2,
+          "away": 1
+        },
+        "probs": {
+          "home": 0.58,
+          "draw": 0.0,
+          "away": 0.42
+        },
+        "winner": "FRA"
+      },
+      {
+        "match_id": "98",
+        "match": "98",
+        "home_team": "ESP",
+        "away_team": "BEL",
+        "predicted_result": "home",
+        "predicted_score": {
+          "home": 2,
+          "away": 0
+        },
+        "probs": {
+          "home": 0.65,
+          "draw": 0.0,
+          "away": 0.35
+        },
+        "winner": "ESP"
+      },
+      {
+        "match_id": "99",
+        "match": "99",
+        "home_team": "BRA",
+        "away_team": "ENG",
+        "predicted_result": "away",
+        "predicted_score": {
+          "home": 1,
+          "away": 2
+        },
+        "probs": {
+          "home": 0.4,
+          "draw": 0.0,
+          "away": 0.6
+        },
+        "winner": "ENG"
+      },
+      {
+        "match_id": "100",
+        "match": "100",
+        "home_team": "ARG",
+        "away_team": "POR",
+        "predicted_result": "home",
+        "predicted_score": {
+          "home": 2,
+          "away": 1
+        },
+        "probs": {
+          "home": 0.55,
+          "draw": 0.0,
+          "away": 0.45
+        },
+        "winner": "ARG"
+      }
+    ],
+    "SF": [
+      {
+        "match_id": "101",
+        "match": "101",
+        "home_team": "FRA",
+        "away_team": "ESP",
+        "predicted_result": "home",
+        "predicted_score": {
+          "home": 2,
+          "away": 1
+        },
+        "probs": {
+          "home": 0.55,
+          "draw": 0.0,
+          "away": 0.45
+        },
+        "winner": "FRA"
+      },
+      {
+        "match_id": "102",
+        "match": "102",
+        "home_team": "ENG",
+        "away_team": "ARG",
+        "predicted_result": "home",
+        "predicted_score": {
+          "home": 2,
+          "away": 0
+        },
+        "probs": {
+          "home": 0.55,
+          "draw": 0.0,
+          "away": 0.45
+        },
+        "winner": "ENG"
+      }
+    ],
+    "final": {
+      "match_id": "FINAL",
+      "match": "FINAL",
+      "home_team": "FRA",
+      "away_team": "ENG",
+      "predicted_result": "home",
+      "predicted_score": {
+        "home": 2,
+        "away": 1
+      },
+      "probs": {
+        "home": 0.52,
+        "draw": 0.0,
+        "away": 0.48
+      },
+      "winner": "FRA"
+    },
+    "third_place": {
+      "match_id": "THIRD",
+      "match": "THIRD",
+      "home_team": "ESP",
+      "away_team": "ARG",
+      "predicted_result": "away",
+      "predicted_score": {
+        "home": 1,
+        "away": 2
+      },
+      "probs": {
+        "home": 0.42,
+        "draw": 0.0,
+        "away": 0.58
+      },
+      "winner": "ARG"
+    }
+  },
+  "champion": "FRA",
+  "runner_up": "ENG",
+  "third": "ARG",
+  "fourth_place": "ESP"
+}

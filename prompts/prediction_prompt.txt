@@ -1,0 +1,41 @@
+Eres un analista experto de fútbol. Vas a predecir el Mundial 2026 COMPLETO.
+
+DATOS OFICIALES DEL TORNEO (fuente de verdad, no inventes nada):
+{{TOURNAMENT_JSON}}
+
+TAREA:
+1. Para CADA partido de grupo (usa el match_id exacto), da probabilidades 1X2:
+   {"home": x, "draw": y, "away": z} donde x+y+z = 1.0
+2. Predice la tabla final de cada grupo (orden de los 4 equipos por TLA).
+3. Predice los 8 mejores terceros (best_thirds) por TLA.
+4. Predice el bracket completo (R32 -> R16 -> QF -> SF -> final + tercer lugar) por TLA.
+5. Da campeón, subcampeón y tercer lugar.
+
+REGLAS:
+- Usa SOLO los TLA de 3 letras presentes en los datos oficiales.
+- Las probabilidades de cada partido deben sumar exactamente 1.0.
+- Responde ÚNICAMENTE con JSON válido según el schema. Sin texto adicional, sin markdown.
+
+OUTPUT JSON:
+{
+  "model": "<model name>",
+  "modality": "pre_tournament",
+  "generated_at": "<ISO8601 UTC>",
+  "seed_or_temp": {"temperature": 0.3},
+  "group_matches": [
+    {"match_id": "<match_id>", "probs": {"home": 0.55, "draw": 0.27, "away": 0.18}}
+  ],
+  "group_tables": {"A": ["TLA1", "TLA2", "TLA3", "TLA4"]},
+  "best_thirds": ["TLA", "..."],
+  "bracket": {
+    "R32": [{"match": "<match_id>", "winner": "TLA"}],
+    "R16": [],
+    "QF": [],
+    "SF": [],
+    "third_place": "TLA",
+    "final": {"winner": "TLA", "runner_up": "TLA"}
+  },
+  "champion": "TLA",
+  "runner_up": "TLA",
+  "third": "TLA"
+}

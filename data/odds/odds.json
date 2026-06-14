@@ -1,0 +1,1096 @@
+{
+  "last_updated": "2026-06-14T10:43:30.211362+00:00",
+  "source": "polymarket",
+  "bookmaker": "Polymarket (soccer-fifwc)",
+  "total_matches": 64,
+  "matches": [
+    {
+      "match_id": "25",
+      "home_team": "GER",
+      "away_team": "CUW",
+      "date": "2026-06-14",
+      "source": "polymarket",
+      "prices": {
+        "home": 94.45,
+        "draw": 3.9,
+        "away": 2.05
+      },
+      "odds": {
+        "home": 1.06,
+        "draw": 25.64,
+        "away": 48.78
+      }
+    },
+    {
+      "match_id": "31",
+      "home_team": "NED",
+      "away_team": "JPN",
+      "date": "2026-06-14",
+      "source": "polymarket",
+      "prices": {
+        "home": 47.5,
+        "draw": 27.5,
+        "away": 26.5
+      },
+      "odds": {
+        "home": 2.11,
+        "draw": 3.64,
+        "away": 3.77
+      }
+    },
+    {
+      "match_id": "26",
+      "home_team": "CIV",
+      "away_team": "ECU",
+      "date": "2026-06-14",
+      "source": "polymarket",
+      "prices": {
+        "home": 29.5,
+        "draw": 33.5,
+        "away": 37.5
+      },
+      "odds": {
+        "home": 3.39,
+        "draw": 2.99,
+        "away": 2.67
+      }
+    },
+    {
+      "match_id": "32",
+      "home_team": "SWE",
+      "away_team": "TUN",
+      "date": "2026-06-14",
+      "source": "polymarket",
+      "prices": {
+        "home": 49.5,
+        "draw": 27.5,
+        "away": 22.5
+      },
+      "odds": {
+        "home": 2.02,
+        "draw": 3.64,
+        "away": 4.44
+      }
+    },
+    {
+      "match_id": "43",
+      "home_team": "ESP",
+      "away_team": "CPV",
+      "date": "2026-06-15",
+      "source": "polymarket",
+      "prices": {
+        "home": 89.5,
+        "draw": 6.95,
+        "away": 3.25
+      },
+      "odds": {
+        "home": 1.12,
+        "draw": 14.39,
+        "away": 30.77
+      }
+    },
+    {
+      "match_id": "37",
+      "home_team": "BEL",
+      "away_team": "EGY",
+      "date": "2026-06-15",
+      "source": "polymarket",
+      "prices": {
+        "home": 60.5,
+        "draw": 24.5,
+        "away": 16.5
+      },
+      "odds": {
+        "home": 1.65,
+        "draw": 4.08,
+        "away": 6.06
+      }
+    },
+    {
+      "match_id": "44",
+      "home_team": "KSA",
+      "away_team": "URU",
+      "date": "2026-06-15",
+      "source": "polymarket",
+      "prices": {
+        "home": 11.5,
+        "draw": 21.5,
+        "away": 67.5
+      },
+      "odds": {
+        "home": 8.7,
+        "draw": 4.65,
+        "away": 1.48
+      }
+    },
+    {
+      "match_id": "38",
+      "home_team": "IRN",
+      "away_team": "NZL",
+      "date": "2026-06-15",
+      "source": "polymarket",
+      "prices": {
+        "home": 52.5,
+        "draw": 27.5,
+        "away": 19.5
+      },
+      "odds": {
+        "home": 1.9,
+        "draw": 3.64,
+        "away": 5.13
+      }
+    },
+    {
+      "match_id": "49",
+      "home_team": "FRA",
+      "away_team": "SEN",
+      "date": "2026-06-16",
+      "source": "polymarket",
+      "prices": {
+        "home": 66.5,
+        "draw": 21.5,
+        "away": 12.5
+      },
+      "odds": {
+        "home": 1.5,
+        "draw": 4.65,
+        "away": 8.0
+      }
+    },
+    {
+      "match_id": "50",
+      "home_team": "IRQ",
+      "away_team": "NOR",
+      "date": "2026-06-16",
+      "source": "polymarket",
+      "prices": {
+        "home": 5.5,
+        "draw": 12.5,
+        "away": 82.5
+      },
+      "odds": {
+        "home": 18.18,
+        "draw": 8.0,
+        "away": 1.21
+      }
+    },
+    {
+      "match_id": "55",
+      "home_team": "ARG",
+      "away_team": "ALG",
+      "date": "2026-06-16",
+      "source": "polymarket",
+      "prices": {
+        "home": 70.5,
+        "draw": 20.5,
+        "away": 9.5
+      },
+      "odds": {
+        "home": 1.42,
+        "draw": 4.88,
+        "away": 10.53
+      }
+    },
+    {
+      "match_id": "56",
+      "home_team": "AUT",
+      "away_team": "JOR",
+      "date": "2026-06-16",
+      "source": "polymarket",
+      "prices": {
+        "home": 72.5,
+        "draw": 17.5,
+        "away": 10.5
+      },
+      "odds": {
+        "home": 1.38,
+        "draw": 5.71,
+        "away": 9.52
+      }
+    },
+    {
+      "match_id": "61",
+      "home_team": "POR",
+      "away_team": "COD",
+      "date": "2026-06-17",
+      "source": "polymarket",
+      "prices": {
+        "home": 75.5,
+        "draw": 16.5,
+        "away": 7.5
+      },
+      "odds": {
+        "home": 1.32,
+        "draw": 6.06,
+        "away": 13.33
+      }
+    },
+    {
+      "match_id": "67",
+      "home_team": "ENG",
+      "away_team": "CRO",
+      "date": "2026-06-17",
+      "source": "polymarket",
+      "prices": {
+        "home": 56.5,
+        "draw": 25.5,
+        "away": 18.5
+      },
+      "odds": {
+        "home": 1.77,
+        "draw": 3.92,
+        "away": 5.41
+      }
+    },
+    {
+      "match_id": "68",
+      "home_team": "GHA",
+      "away_team": "PAN",
+      "date": "2026-06-17",
+      "source": "polymarket",
+      "prices": {
+        "home": 43.5,
+        "draw": 28.5,
+        "away": 27.5
+      },
+      "odds": {
+        "home": 2.3,
+        "draw": 3.51,
+        "away": 3.64
+      }
+    },
+    {
+      "match_id": "62",
+      "home_team": "UZB",
+      "away_team": "COL",
+      "date": "2026-06-17",
+      "source": "polymarket",
+      "prices": {
+        "home": 9.5,
+        "draw": 20.5,
+        "away": 70.5
+      },
+      "odds": {
+        "home": 10.53,
+        "draw": 4.88,
+        "away": 1.42
+      }
+    },
+    {
+      "match_id": "4",
+      "home_team": "CZE",
+      "away_team": "RSA",
+      "date": "2026-06-18",
+      "source": "polymarket",
+      "prices": {
+        "home": 54.5,
+        "draw": 24.5,
+        "away": 20.5
+      },
+      "odds": {
+        "home": 1.83,
+        "draw": 4.08,
+        "away": 4.88
+      }
+    },
+    {
+      "match_id": "10",
+      "home_team": "SUI",
+      "away_team": "BIH",
+      "date": "2026-06-18",
+      "source": "polymarket",
+      "prices": {
+        "home": 61.5,
+        "draw": 23.5,
+        "away": 15.5
+      },
+      "odds": {
+        "home": 1.63,
+        "draw": 4.26,
+        "away": 6.45
+      }
+    },
+    {
+      "match_id": "9",
+      "home_team": "CAN",
+      "away_team": "QAT",
+      "date": "2026-06-18",
+      "source": "polymarket",
+      "prices": {
+        "home": 76.5,
+        "draw": 16.5,
+        "away": 7.5
+      },
+      "odds": {
+        "home": 1.31,
+        "draw": 6.06,
+        "away": 13.33
+      }
+    },
+    {
+      "match_id": "3",
+      "home_team": "MEX",
+      "away_team": "KOR",
+      "date": "2026-06-18",
+      "source": "polymarket",
+      "prices": {
+        "home": 49.5,
+        "draw": 28.5,
+        "away": 22.5
+      },
+      "odds": {
+        "home": 2.02,
+        "draw": 3.51,
+        "away": 4.44
+      }
+    },
+    {
+      "match_id": "21",
+      "home_team": "USA",
+      "away_team": "AUS",
+      "date": "2026-06-19",
+      "source": "polymarket",
+      "prices": {
+        "home": 61.5,
+        "draw": 21.5,
+        "away": 16.5
+      },
+      "odds": {
+        "home": 1.63,
+        "draw": 4.65,
+        "away": 6.06
+      }
+    },
+    {
+      "match_id": "16",
+      "home_team": "SCO",
+      "away_team": "MAR",
+      "date": "2026-06-19",
+      "source": "polymarket",
+      "prices": {
+        "home": 18.5,
+        "draw": 25.5,
+        "away": 55.5
+      },
+      "odds": {
+        "home": 5.41,
+        "draw": 3.92,
+        "away": 1.8
+      }
+    },
+    {
+      "match_id": "15",
+      "home_team": "BRA",
+      "away_team": "HAI",
+      "date": "2026-06-19",
+      "source": "polymarket",
+      "prices": {
+        "home": 88.5,
+        "draw": 7.35,
+        "away": 3.95
+      },
+      "odds": {
+        "home": 1.13,
+        "draw": 13.61,
+        "away": 25.32
+      }
+    },
+    {
+      "match_id": "22",
+      "home_team": "TUR",
+      "away_team": "PAR",
+      "date": "2026-06-19",
+      "source": "polymarket",
+      "prices": {
+        "home": 47.5,
+        "draw": 28.5,
+        "away": 23.5
+      },
+      "odds": {
+        "home": 2.11,
+        "draw": 3.51,
+        "away": 4.26
+      }
+    },
+    {
+      "match_id": "33",
+      "home_team": "NED",
+      "away_team": "SWE",
+      "date": "2026-06-20",
+      "source": "polymarket",
+      "prices": {
+        "home": 59.5,
+        "draw": 23.5,
+        "away": 17.5
+      },
+      "odds": {
+        "home": 1.68,
+        "draw": 4.26,
+        "away": 5.71
+      }
+    },
+    {
+      "match_id": "27",
+      "home_team": "GER",
+      "away_team": "CIV",
+      "date": "2026-06-20",
+      "source": "polymarket",
+      "prices": {
+        "home": 63.5,
+        "draw": 20.5,
+        "away": 17.5
+      },
+      "odds": {
+        "home": 1.57,
+        "draw": 4.88,
+        "away": 5.71
+      }
+    },
+    {
+      "match_id": "28",
+      "home_team": "ECU",
+      "away_team": "CUW",
+      "date": "2026-06-20",
+      "source": "polymarket",
+      "prices": {
+        "home": 81.5,
+        "draw": 12.5,
+        "away": 6.35
+      },
+      "odds": {
+        "home": 1.23,
+        "draw": 8.0,
+        "away": 15.75
+      }
+    },
+    {
+      "match_id": "34",
+      "home_team": "TUN",
+      "away_team": "JPN",
+      "date": "2026-06-20",
+      "source": "polymarket",
+      "prices": {
+        "home": 15.5,
+        "draw": 26.5,
+        "away": 58.5
+      },
+      "odds": {
+        "home": 6.45,
+        "draw": 3.77,
+        "away": 1.71
+      }
+    },
+    {
+      "match_id": "45",
+      "home_team": "ESP",
+      "away_team": "KSA",
+      "date": "2026-06-21",
+      "source": "polymarket",
+      "prices": {
+        "home": 89.5,
+        "draw": 7.5,
+        "away": 3.8
+      },
+      "odds": {
+        "home": 1.12,
+        "draw": 13.33,
+        "away": 26.32
+      }
+    },
+    {
+      "match_id": "39",
+      "home_team": "BEL",
+      "away_team": "IRN",
+      "date": "2026-06-21",
+      "source": "polymarket",
+      "prices": {
+        "home": 69.5,
+        "draw": 19.5,
+        "away": 11.5
+      },
+      "odds": {
+        "home": 1.44,
+        "draw": 5.13,
+        "away": 8.7
+      }
+    },
+    {
+      "match_id": "46",
+      "home_team": "URU",
+      "away_team": "CPV",
+      "date": "2026-06-21",
+      "source": "polymarket",
+      "prices": {
+        "home": 68.5,
+        "draw": 20.5,
+        "away": 11.5
+      },
+      "odds": {
+        "home": 1.46,
+        "draw": 4.88,
+        "away": 8.7
+      }
+    },
+    {
+      "match_id": "40",
+      "home_team": "NZL",
+      "away_team": "EGY",
+      "date": "2026-06-21",
+      "source": "polymarket",
+      "prices": {
+        "home": 19.5,
+        "draw": 25.5,
+        "away": 55.5
+      },
+      "odds": {
+        "home": 5.13,
+        "draw": 3.92,
+        "away": 1.8
+      }
+    },
+    {
+      "match_id": "57",
+      "home_team": "ARG",
+      "away_team": "AUT",
+      "date": "2026-06-22",
+      "source": "polymarket",
+      "prices": {
+        "home": 62.5,
+        "draw": 22.5,
+        "away": 15.5
+      },
+      "odds": {
+        "home": 1.6,
+        "draw": 4.44,
+        "away": 6.45
+      }
+    },
+    {
+      "match_id": "51",
+      "home_team": "FRA",
+      "away_team": "IRQ",
+      "date": "2026-06-22",
+      "source": "polymarket",
+      "prices": {
+        "home": 88.5,
+        "draw": 8.5,
+        "away": 3.75
+      },
+      "odds": {
+        "home": 1.13,
+        "draw": 11.76,
+        "away": 26.67
+      }
+    },
+    {
+      "match_id": "52",
+      "home_team": "NOR",
+      "away_team": "SEN",
+      "date": "2026-06-22",
+      "source": "polymarket",
+      "prices": {
+        "home": 44.5,
+        "draw": 27.5,
+        "away": 28.5
+      },
+      "odds": {
+        "home": 2.25,
+        "draw": 3.64,
+        "away": 3.51
+      }
+    },
+    {
+      "match_id": "58",
+      "home_team": "JOR",
+      "away_team": "ALG",
+      "date": "2026-06-22",
+      "source": "polymarket",
+      "prices": {
+        "home": 13.5,
+        "draw": 21.5,
+        "away": 65.5
+      },
+      "odds": {
+        "home": 7.41,
+        "draw": 4.65,
+        "away": 1.53
+      }
+    },
+    {
+      "match_id": "63",
+      "home_team": "POR",
+      "away_team": "UZB",
+      "date": "2026-06-23",
+      "source": "polymarket",
+      "prices": {
+        "home": 79.5,
+        "draw": 13.5,
+        "away": 7.5
+      },
+      "odds": {
+        "home": 1.26,
+        "draw": 7.41,
+        "away": 13.33
+      }
+    },
+    {
+      "match_id": "69",
+      "home_team": "ENG",
+      "away_team": "GHA",
+      "date": "2026-06-23",
+      "source": "polymarket",
+      "prices": {
+        "home": 75.5,
+        "draw": 16.5,
+        "away": 9.5
+      },
+      "odds": {
+        "home": 1.32,
+        "draw": 6.06,
+        "away": 10.53
+      }
+    },
+    {
+      "match_id": "70",
+      "home_team": "PAN",
+      "away_team": "CRO",
+      "date": "2026-06-23",
+      "source": "polymarket",
+      "prices": {
+        "home": 14.0,
+        "draw": 23.5,
+        "away": 62.5
+      },
+      "odds": {
+        "home": 7.14,
+        "draw": 4.26,
+        "away": 1.6
+      }
+    },
+    {
+      "match_id": "64",
+      "home_team": "COL",
+      "away_team": "COD",
+      "date": "2026-06-23",
+      "source": "polymarket",
+      "prices": {
+        "home": 66.5,
+        "draw": 21.5,
+        "away": 12.5
+      },
+      "odds": {
+        "home": 1.5,
+        "draw": 4.65,
+        "away": 8.0
+      }
+    },
+    {
+      "match_id": "11",
+      "home_team": "SUI",
+      "away_team": "CAN",
+      "date": "2026-06-24",
+      "source": "polymarket",
+      "prices": {
+        "home": 44.5,
+        "draw": 28.5,
+        "away": 27.5
+      },
+      "odds": {
+        "home": 2.25,
+        "draw": 3.51,
+        "away": 3.64
+      }
+    },
+    {
+      "match_id": "12",
+      "home_team": "BIH",
+      "away_team": "QAT",
+      "date": "2026-06-24",
+      "source": "polymarket",
+      "prices": {
+        "home": 63.5,
+        "draw": 22.5,
+        "away": 14.5
+      },
+      "odds": {
+        "home": 1.57,
+        "draw": 4.44,
+        "away": 6.9
+      }
+    },
+    {
+      "match_id": "18",
+      "home_team": "MAR",
+      "away_team": "HAI",
+      "date": "2026-06-24",
+      "source": "polymarket",
+      "prices": {
+        "home": 74.5,
+        "draw": 16.5,
+        "away": 9.5
+      },
+      "odds": {
+        "home": 1.34,
+        "draw": 6.06,
+        "away": 10.53
+      }
+    },
+    {
+      "match_id": "17",
+      "home_team": "SCO",
+      "away_team": "BRA",
+      "date": "2026-06-24",
+      "source": "polymarket",
+      "prices": {
+        "home": 14.5,
+        "draw": 17.5,
+        "away": 69.5
+      },
+      "odds": {
+        "home": 6.9,
+        "draw": 5.71,
+        "away": 1.44
+      }
+    },
+    {
+      "match_id": "5",
+      "home_team": "CZE",
+      "away_team": "MEX",
+      "date": "2026-06-24",
+      "source": "polymarket",
+      "prices": {
+        "home": 19.5,
+        "draw": 26.5,
+        "away": 53.5
+      },
+      "odds": {
+        "home": 5.13,
+        "draw": 3.77,
+        "away": 1.87
+      }
+    },
+    {
+      "match_id": "6",
+      "home_team": "RSA",
+      "away_team": "KOR",
+      "date": "2026-06-24",
+      "source": "polymarket",
+      "prices": {
+        "home": 15.5,
+        "draw": 22.5,
+        "away": 61.5
+      },
+      "odds": {
+        "home": 6.45,
+        "draw": 4.44,
+        "away": 1.63
+      }
+    },
+    {
+      "match_id": "29",
+      "home_team": "ECU",
+      "away_team": "GER",
+      "date": "2026-06-25",
+      "source": "polymarket",
+      "prices": {
+        "home": 20.5,
+        "draw": 24.5,
+        "away": 56.0
+      },
+      "odds": {
+        "home": 4.88,
+        "draw": 4.08,
+        "away": 1.79
+      }
+    },
+    {
+      "match_id": "30",
+      "home_team": "CUW",
+      "away_team": "CIV",
+      "date": "2026-06-25",
+      "source": "polymarket",
+      "prices": {
+        "home": 7.5,
+        "draw": 14.5,
+        "away": 79.5
+      },
+      "odds": {
+        "home": 13.33,
+        "draw": 6.9,
+        "away": 1.26
+      }
+    },
+    {
+      "match_id": "36",
+      "home_team": "JPN",
+      "away_team": "SWE",
+      "date": "2026-06-25",
+      "source": "polymarket",
+      "prices": {
+        "home": 46.5,
+        "draw": 28.5,
+        "away": 26.5
+      },
+      "odds": {
+        "home": 2.15,
+        "draw": 3.51,
+        "away": 3.77
+      }
+    },
+    {
+      "match_id": "35",
+      "home_team": "TUN",
+      "away_team": "NED",
+      "date": "2026-06-25",
+      "source": "polymarket",
+      "prices": {
+        "home": 13.5,
+        "draw": 21.5,
+        "away": 66.5
+      },
+      "odds": {
+        "home": 7.41,
+        "draw": 4.65,
+        "away": 1.5
+      }
+    },
+    {
+      "match_id": "24",
+      "home_team": "PAR",
+      "away_team": "AUS",
+      "date": "2026-06-25",
+      "source": "polymarket",
+      "prices": {
+        "home": 43.5,
+        "draw": 29.5,
+        "away": 27.5
+      },
+      "odds": {
+        "home": 2.3,
+        "draw": 3.39,
+        "away": 3.64
+      }
+    },
+    {
+      "match_id": "23",
+      "home_team": "TUR",
+      "away_team": "USA",
+      "date": "2026-06-25",
+      "source": "polymarket",
+      "prices": {
+        "home": 34.5,
+        "draw": 25.5,
+        "away": 42.0
+      },
+      "odds": {
+        "home": 2.9,
+        "draw": 3.92,
+        "away": 2.38
+      }
+    },
+    {
+      "match_id": "53",
+      "home_team": "NOR",
+      "away_team": "FRA",
+      "date": "2026-06-26",
+      "source": "polymarket",
+      "prices": {
+        "home": 22.0,
+        "draw": 25.5,
+        "away": 53.5
+      },
+      "odds": {
+        "home": 4.55,
+        "draw": 3.92,
+        "away": 1.87
+      }
+    },
+    {
+      "match_id": "54",
+      "home_team": "SEN",
+      "away_team": "IRQ",
+      "date": "2026-06-26",
+      "source": "polymarket",
+      "prices": {
+        "home": 68.5,
+        "draw": 20.5,
+        "away": 11.0
+      },
+      "odds": {
+        "home": 1.46,
+        "draw": 4.88,
+        "away": 9.09
+      }
+    },
+    {
+      "match_id": "48",
+      "home_team": "CPV",
+      "away_team": "KSA",
+      "date": "2026-06-26",
+      "source": "polymarket",
+      "prices": {
+        "home": 37.5,
+        "draw": 25.5,
+        "away": 36.5
+      },
+      "odds": {
+        "home": 2.67,
+        "draw": 3.92,
+        "away": 2.74
+      }
+    },
+    {
+      "match_id": "47",
+      "home_team": "URU",
+      "away_team": "ESP",
+      "date": "2026-06-26",
+      "source": "polymarket",
+      "prices": {
+        "home": 17.5,
+        "draw": 24.5,
+        "away": 59.5
+      },
+      "odds": {
+        "home": 5.71,
+        "draw": 4.08,
+        "away": 1.68
+      }
+    },
+    {
+      "match_id": "42",
+      "home_team": "EGY",
+      "away_team": "IRN",
+      "date": "2026-06-26",
+      "source": "polymarket",
+      "prices": {
+        "home": 43.5,
+        "draw": 31.0,
+        "away": 27.0
+      },
+      "odds": {
+        "home": 2.3,
+        "draw": 3.23,
+        "away": 3.7
+      }
+    },
+    {
+      "match_id": "41",
+      "home_team": "NZL",
+      "away_team": "BEL",
+      "date": "2026-06-26",
+      "source": "polymarket",
+      "prices": {
+        "home": 9.5,
+        "draw": 15.5,
+        "away": 75.5
+      },
+      "odds": {
+        "home": 10.53,
+        "draw": 6.45,
+        "away": 1.32
+      }
+    },
+    {
+      "match_id": "71",
+      "home_team": "PAN",
+      "away_team": "ENG",
+      "date": "2026-06-27",
+      "source": "polymarket",
+      "prices": {
+        "home": 10.0,
+        "draw": 14.5,
+        "away": 75.5
+      },
+      "odds": {
+        "home": 10.0,
+        "draw": 6.9,
+        "away": 1.32
+      }
+    },
+    {
+      "match_id": "72",
+      "home_team": "CRO",
+      "away_team": "GHA",
+      "date": "2026-06-27",
+      "source": "polymarket",
+      "prices": {
+        "home": 58.5,
+        "draw": 24.5,
+        "away": 16.5
+      },
+      "odds": {
+        "home": 1.71,
+        "draw": 4.08,
+        "away": 6.06
+      }
+    },
+    {
+      "match_id": "65",
+      "home_team": "COL",
+      "away_team": "POR",
+      "date": "2026-06-27",
+      "source": "polymarket",
+      "prices": {
+        "home": 26.0,
+        "draw": 27.5,
+        "away": 46.5
+      },
+      "odds": {
+        "home": 3.85,
+        "draw": 3.64,
+        "away": 2.15
+      }
+    },
+    {
+      "match_id": "66",
+      "home_team": "COD",
+      "away_team": "UZB",
+      "date": "2026-06-27",
+      "source": "polymarket",
+      "prices": {
+        "home": 40.5,
+        "draw": 28.5,
+        "away": 31.0
+      },
+      "odds": {
+        "home": 2.47,
+        "draw": 3.51,
+        "away": 3.23
+      }
+    },
+    {
+      "match_id": "59",
+      "home_team": "JOR",
+      "away_team": "ARG",
+      "date": "2026-06-27",
+      "source": "polymarket",
+      "prices": {
+        "home": 6.75,
+        "draw": 11.5,
+        "away": 82.5
+      },
+      "odds": {
+        "home": 14.81,
+        "draw": 8.7,
+        "away": 1.21
+      }
+    },
+    {
+      "match_id": "60",
+      "home_team": "ALG",
+      "away_team": "AUT",
+      "date": "2026-06-27",
+      "source": "polymarket",
+      "prices": {
+        "home": 25.5,
+        "draw": 30.5,
+        "away": 44.5
+      },
+      "odds": {
+        "home": 3.92,
+        "draw": 3.28,
+        "away": 2.25
+      }
+    }
+  ]
+}
